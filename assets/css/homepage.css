@@ -388,26 +388,40 @@ a:hover {
   background: linear-gradient(180deg, #edf3ff 0%, rgba(237, 243, 255, 0) 100%);
 }
 
-.deal .card {
+.deal p,
+.gift p {
+  margin: 0;
+}
+
+.deal .card,
+.gift .card {
   background-image: url("../img/bg-card1.svg");
   max-width: 508px;
+  background-position: center;
   background-color: #f8f8f8;
   box-shadow: 0px 0px 10px 0px #0000001a;
   border: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  overflow: hidden;
 }
 
 .deal .card-content {
   padding-top: 0 !important;
 }
 
-.deal .card-content-bg {
+.deal .card-content-bg,
+.gift .card-content-bg {
   background: rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 16px;
 }
 
-.deal .total {
+.deal .total,
+.gift .total {
   position: relative;
 }
 
@@ -416,14 +430,45 @@ a:hover {
   margin-bottom: 8px;
 }
 
-.deal .total::before {
+.deal .total::before,
+.gift .total::before {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   content: "";
   position: absolute;
   width: 95%;
-  border: 1px solid #c4c4c4;
+  border-top: 1px solid #c4c4c4;
+}
+
+.gift {
+  background: linear-gradient(180deg, #f5edff 0%, rgba(245, 237, 255, 0) 100%);
+}
+
+.gift .card {
+  background-image: url("../img/bg-card2.svg");
+}
+
+.gift-info {
+  padding: 5px 0;
+  width: fit-content;
+  padding-right: 4em;
+  background-color: #fff;
+  margin-left: -1rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 1rem;
+  border-radius: 0 20px 20px 0;
+}
+.gift .card-right {
+  justify-content: flex-end;
+  align-items: center;
+}
+.d-flex-custom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 @media (min-width: 1601px) {
@@ -463,15 +508,54 @@ a:hover {
     margin-top: -90px;
   }
 }
+
+@media (max-width: 1200px) {
+  .card-right {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .gift .card-right {
+    justify-content: flex-end;
+  }
+}
 @media (max-width: 992px) {
+  .deal .btn,
+  .gift .btn {
+    width: auto !important;
+  }
+
   .nav-link {
     padding: 10px 20px;
   }
   .content-header .logo {
     padding-left: 1%;
   }
+
+  .card-right {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .card-right del {
+    font-size: smaller;
+  }
 }
 @media (max-width: 992px) {
+  .card .price {
+    font-size: 30px;
+  }
+
+  .gift .text-size-20 {
+    font-size: 18px;
+  }
+
+  .gift-info .text-size-24 {
+    font-size: 20px;
+  }
+
   .elsa-by-number {
     /* background-image: url('../elsa_number_bg_m.png'); */
     background-image: url("../img/elsa_number_bg_m.png");
@@ -718,6 +802,25 @@ a:hover {
   }
   .header-bg .label-header {
     margin-top: 40px;
+  }
+
+  .deal .card .card-title > p,
+  .gift .card .card-title > p {
+    font-size: 25px;
+  }
+
+  .card-right {
+    flex-direction: row;
+  }
+
+  .gift .card-right {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .card-right {
+    flex-direction: column;
   }
 }
 @media (min-width: 576px) and (max-width: 1199.98px) {
