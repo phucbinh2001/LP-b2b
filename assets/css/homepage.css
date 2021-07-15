@@ -16,6 +16,9 @@
   font-style: normal;
   src: url(../font/SFUIDisplay-Semibold.ttf);
 }
+* {
+  scroll-behavior: smooth;
+}
 body {
   background: #ffffff;
   font-family: "SF Pro Display";
@@ -677,7 +680,8 @@ a:hover {
     width: 90%;
   }
   .footer-bg {
-    background-image: url(../img/footer_m.svg);
+    background-image: unset;
+    background: #121131;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -793,6 +797,9 @@ a:hover {
   }
 }
 @media (max-width: 767px) {
+  .nav-top-fixed {
+    padding: 0px 20px;
+  }
   .header-bg {
     background-image: url("../img/baner_m.png");
     background-position: top;
