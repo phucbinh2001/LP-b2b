@@ -1,0 +1,549 @@
+@media screen {
+	@font-face {
+		font-family: 'SF Pro Display';
+		font-weight: 300;
+		font-style: normal;
+		src: url(/wp-content/themes/theme_lp_b2b/assets/font/SFUIDisplay-Light.ttf);
+	}
+
+	@font-face {
+		font-family: 'SF Pro Display';
+		font-weight: normal;
+		font-style: normal;
+		src: url(/wp-content/themes/theme_lp_b2b/assets/font/SFUIDisplay-Regular.ttf);
+	}
+
+	@font-face {
+		font-family: 'SF Pro Display';
+		font-weight: 500;
+		font-style: normal;
+		src: url(/wp-content/themes/theme_lp_b2b/assets/font/SFUIDisplay-Medium.ttf);
+	}
+
+	@font-face {
+		font-family: 'SF Pro Display';
+		font-weight: 600;
+		font-style: normal;
+		src: url(/wp-content/themes/theme_lp_b2b/assets/font/SFUIDisplay-Semibold.ttf);
+	}
+
+	@font-face {
+		font-family: 'SF Pro Display';
+		font-weight: bold;
+		font-style: normal;
+		src: url(/wp-content/themes/theme_lp_b2b/assets/font/SFUIDisplay-Bold.ttf);
+	}
+}
+
+html {
+	font-size: 14px;
+	scroll-behavior: smooth;
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+body {
+	font-family: "SF Pro Display";
+	font-style: normal;
+	font-weight: normal;
+}
+
+p {
+	font-size: 20px;
+	line-height: 32px;
+	color: #121131;
+	opacity: 0.9;
+}
+
+h1 {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 48px;
+	color: #121131;
+}
+
+h4 {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+/* header h5,
+header .navbar-brand {
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #121131;
+	font-family: 'Product Sans';
+}
+
+nav a {
+	font-size: 16px;
+	line-height: 24px;
+	color: #121131;
+}
+
+nav a.btn-outline-primary {
+	border: 2px solid #478DFF;
+	box-sizing: border-box;
+	border-radius: 123px;
+	color: #478DFF;
+	font-weight: bold;
+} */
+
+/* .container {
+	max-width: 960px;
+} */
+.pricing-header {
+	max-width: 700px;
+	margin-bottom: 52px;
+}
+
+.pricing-header .lead {
+	max-width: 539px;
+	margin: auto;
+}
+
+.card-deck .card {
+	min-width: 350px;
+}
+
+.card-header:first-child {
+	border-radius: 24px 24px 0 0;
+}
+
+.card-header {
+	padding: 40px;
+	border: none;
+	color: #FFFFFF;
+}
+
+.card-header h4 {
+	border: none;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+}
+
+.card {
+	border: 1px solid rgba(230, 230, 230, 1);
+	border-radius: 24px 24px 0 0;
+}
+
+.card-body,
+.card-body p {
+	font-size: 16px;
+	line-height: 24px;
+	min-height: 96px;
+}
+
+.card-body ul li {
+	text-align: left;
+}
+
+.bg-blue {
+	background: linear-gradient(180deg, #29F4FF -46.11%, #5257FF 151.97%);
+}
+
+.bg-yellow {
+	background: linear-gradient(180deg, #FFF35C -54.1%, #EF7B32 100%);
+}
+
+.bg-dark {
+	background-color: #121131 !important;
+}
+
+.font-size-18 {
+	font-size: 18px;
+}
+
+.font-size-22 {
+	font-size: 22px;
+}
+
+.font-size-24 {
+	font-size: 24px;
+}
+
+.font-size-32 {
+	font-size: 32px;
+}
+
+.line-height-24 {
+	line-height: 24px;
+}
+
+.line-height-36 {
+	line-height: 36px;
+}
+
+.icon-check {
+	background-image: url(/wp-content/themes/theme_lp_b2b/assets/img/Check.svg);
+	min-width: 28px;
+	/* width: 28px; */
+	height: 28px;
+	background-repeat: no-repeat;
+}
+
+.icon-close {
+	background-image: url(/wp-content/themes/theme_lp_b2b/assets/img/Close.svg);
+	/* width: 28px; */
+	min-width: 28px;
+	height: 28px;
+	background-repeat: no-repeat;
+}
+
+.secondary {
+	opacity: 0.5;
+}
+
+li {
+	margin: 16px 0;
+}
+
+.btn {
+	border-radius: 123px;
+	color: #FFFFFF;
+	font-weight: 600;
+}
+
+.btn-warning {
+	background-color: #F3923B;
+}
+
+.btn-dark {
+	background-color: #121131;
+	-webkit-appearance: none;
+}
+
+.badge {
+	border-radius: 8px;
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: initial;
+}
+
+.badge-success {
+	color: #0EBF2C;
+	background: #EDFBF0;
+	max-height: 28px;
+	max-width: 150px;
+	font-weight: 700;
+}
+
+.how-it-works h2 {
+	font-size: 36px;
+	line-height: 48px;
+	font-weight: bold;
+}
+
+.how-it-works p {
+	max-width: 724px;
+	opacity: 0.8;
+	mix-blend-mode: normal;
+	margin: auto;
+}
+
+.desc h4 {
+	color: #478DFF;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.section-3 {
+	background: linear-gradient(180deg, #29F4FF -46.11%, #5257FF 151.97%);
+	padding: 66px 0;
+	max-height: 261px;
+	margin-top: 80px;
+}
+
+.section-3 h1 {
+	color: #FFFFFF;
+	margin-bottom: 25px;
+}
+
+.section-3 button {
+	color: #478DFF;
+	max-width: 270px;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.btn-light {
+	background-color: #FFFFFF;
+}
+
+.section-4 {
+	margin-top: 80px;
+}
+
+.section-4 h4 {
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 36px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #121131;
+	mix-blend-mode: darken;
+	max-width: 920px;
+	margin-bottom: 48px;
+}
+
+.bg-footer,
+.list-group-item {
+	background: #121131;
+}
+
+footer p,
+footer h5 {
+	color: #FFFFFF;
+}
+
+footer h5 {
+	font-size: 18px;
+	line-height: 24px;
+	padding-top: 13px;
+}
+
+footer p {
+	font-size: 16px;
+	line-height: 32px;
+	opacity: 0.8;
+}
+
+/* .input-group {
+	min-height: 50px;
+} */
+
+.contact-sales {
+/* 	padding-bottom: 58px; */
+	height: 86px;
+}
+
+#book-demo {
+	width: 100%;
+}
+
+.mobile {
+	display: none;
+}
+
+/* .prettydropdown {
+	margin-top: 25px;
+} */
+
+.prettydropdown>ul {
+	max-height: 28px !important;
+}
+
+.prettydropdown>ul>li {
+	font-size: 22px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #000000;
+	max-height: 28px !important;
+}
+
+.input-group {
+	max-height: 28px;
+}
+
+.section-2 .badge-success {
+	margin-top: 12px;
+	margin-bottom: 24px;
+}
+
+.card-body button {
+	height: 50px;
+}
+
+.how-it-works {
+	margin-top: 80px;
+}
+
+.how-it-works h2 {
+	margin-bottom: 29px;
+}
+
+.how-it-works p {
+	margin-bottom: 60px;
+}
+
+.card {
+	border-bottom-left-radius: 24px;
+	border-bottom-right-radius: 24px;
+}
+
+.card-body {
+	padding: 24px 17px;
+}
+
+@media (max-width: 768px) {
+	.mobile {
+		display: initial;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	section {
+		max-width: 343px;
+		margin: auto;
+	}
+
+	.pricing-header {
+		max-width: initial;
+		margin-bottom: 32px;
+	}
+
+	.container {
+		padding: 0;
+		margin: 0;
+	}
+
+	.font-m-24 {
+		font-size: 24px;
+	}
+
+	.font-m-20 {
+		font-size: 20px;
+	}
+
+	.font-m-16 {
+		font-size: 16px;
+	}
+
+	.font-m-14 {
+		font-size: 14px;
+	}
+
+	.line-m-28 {
+		line-height: 28px;
+	}
+
+	.line-m-24 {
+		line-height: 24px;
+	}
+
+	.line-m-36 {
+		line-height: 36px;
+	}
+
+	.prettydropdown>ul>li {
+		font-size: 20px;
+		line-height: 28px;
+		font-weight: 600;
+		color: #000000;
+		max-height: 28px !important;
+	}
+
+	.card-body p {
+		padding-bottom: 10px;
+		min-height: auto;
+	}
+
+	.card-deck .card {
+		margin-bottom: 32px;
+	}
+
+	.card-header {
+		padding: 24px 91px;
+	}
+
+	.card-body li {
+		margin: 8px 0;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.contact-sales {
+		font-size: 20px;
+		line-height: 28px;
+		font-weight: 600;
+		padding-bottom: 24px;
+	}
+
+	.how-it-works {
+		margin-top: 40px;
+	}
+
+	.how-it-works h2 {
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 36px;
+		margin-bottom: 8px;
+	}
+
+	.how-it-works p {
+		font-size: 16px;
+		line-height: 24px;
+		color: #121131;
+		mix-blend-mode: normal;
+		opacity: 0.8;
+		margin-bottom: 27px;
+	}
+
+	.desc {
+		text-align: center;
+	}
+
+	.desc img {
+		margin-bottom: 8px;
+	}
+
+	.desc h4 {
+		font-size: 20px;
+		line-height: 28px;
+		font-weight: 600;
+	}
+
+	.desc p {
+		font-size: 16px;
+		line-height: 24px;
+		color: #121131;
+		margin-bottom: 32px;
+	}
+
+	.section-3 {
+		max-width: initial;
+		padding: 24px;
+		margin: 0;
+	}
+
+	.section-3 h1 {
+		max-width: 279px;
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 36px;
+		color: #FFFFFF;
+		margin-bottom: 16px;
+	}
+
+	.section-3 a {
+		max-height: 56px;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 24px;
+		padding: 16px;
+	}
+
+	.section-4 {
+		margin-top: 40px;
+	}
+}

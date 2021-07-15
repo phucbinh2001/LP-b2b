@@ -1,0 +1,678 @@
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: normal;
+  font-style: normal;
+  src: url(./assets/font/SFUIDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: 500;
+  font-style: normal;
+  src: url(./assets/font/SFUIDisplay-Medium.ttf);
+}
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: 600;
+  font-style: normal;
+  src: url(./assets/font/SFUIDisplay-Semibold.ttf);
+}
+body {
+  background: #ffffff;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  height: 100%;
+  margin: 0;
+  color: #121131;
+}
+.header-bg {
+  background-image: url("./assets/img/baner.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 807px;
+}
+.elsa-by-number {
+  background-image: url("./assets/img/elsa_number_bg.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 669px;
+  margin-top: 19px;
+}
+#body-section {
+  margin-top: 40px;
+}
+.mobile {
+  display: none;
+}
+.desktop {
+  display: flex;
+}
+.text-size-16 {
+  font-size: 16px;
+  line-height: 28px;
+}
+.text-size-18 {
+  font-size: 18px;
+  line-height: 28px;
+}
+.text-size-20 {
+  font-size: 20px;
+  line-height: 32px;
+}
+.text-size-22 {
+  font-size: 22px;
+  line-height: 32px;
+}
+.text-size-24 {
+  font-size: 24px;
+  line-height: 36px;
+}
+.text-size-32 {
+  font-size: 32px;
+  line-height: 48px;
+}
+.text-size-36 {
+  font-size: 36px;
+  line-height: 48px;
+}
+.text-size-48 {
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.text-white {
+  color: #ffffff;
+}
+.font-weight-700 {
+  font-weight: 700;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.font-weight-400 {
+  font-weight: 400;
+}
+a {
+  color: #ffffff;
+}
+.btn {
+  border: 0px solid transparent;
+}
+.book-demo {
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 123px;
+  padding: 4px 29px !important;
+  margin: -2px 30px;
+}
+.menu-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 37px;
+}
+.content-header .menu-header {
+  padding-top: 0px;
+}
+.content-header .logo {
+  padding-left: 5%;
+}
+.nav-link {
+  padding: 0px 40px;
+}
+.language-icon {
+  padding: 0px;
+}
+
+.label-header {
+  margin-left: 5%;
+  margin-top: 10%;
+}
+.button-blue {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  background: linear-gradient(180deg, #29f4ff -46.11%, #5257ff 151.97%);
+  border-radius: 123px;
+}
+.nav-top-fixed {
+  position: fixed;
+  background-color: white;
+  z-index: 999999;
+  width: 100%;
+  padding: 0px 10rem;
+  margin-top: -60px;
+}
+.button-white {
+  font-size: 20px;
+  line-height: 24px;
+  background: #fff;
+  color: #478dff;
+  border-radius: 123px;
+  padding: 13px 97px;
+}
+.trust-label {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  color: #121131;
+  mix-blend-mode: darken;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 38px;
+}
+.meet-elsa-sec {
+  padding-top: 78px;
+}
+.description-text {
+  color: #121131;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.margin-left {
+  margin-left: 19%;
+}
+.margin-left-30 {
+  margin-left: 30%;
+}
+.margin-right {
+  margin-right: 19%;
+}
+.line-1 {
+  width: 296px;
+  padding-top: 10px;
+  margin-left: 218px;
+  margin-bottom: -60px;
+}
+.line-2 {
+  width: 580px;
+  margin-top: -165px;
+  margin-right: 55px;
+  margin-bottom: -104px;
+}
+.line-3 {
+  width: 580px;
+  margin-top: -110px;
+  margin-right: 47px;
+  margin-bottom: -60px;
+}
+#slider .carousel-item {
+  /* height: 350px; */
+  width: 391px;
+}
+
+.carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+}
+.carousel-indicators {
+  bottom: -110px;
+}
+.carousel-indicators li {
+  background-color: #e6e6e6;
+}
+.carousel-indicators .active {
+  background-color: #478dff;
+}
+.item-slide-width {
+  max-width: 560px;
+  cursor: pointer;
+}
+.title-active {
+  color: #478dff;
+}
+.title-inactive {
+  color: #121131;
+}
+.back-ground-active {
+  background: rgba(71, 141, 255, 0.1);
+  border-radius: 24px;
+}
+.see-plan {
+  background-image: url(./assets/img/see_plan.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 261px;
+}
+.see-plan p {
+  padding-top: 66px;
+}
+#carouselPartner .carousel-control-next,
+#carouselPartner .carousel-control-prev {
+  width: 5%;
+}
+.footer-bg {
+  background-image: url(./assets/img/footer_bg.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 340px;
+}
+.footer .nav {
+  display: inline-flex;
+}
+.footer .contact-info {
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+  opacity: 0.8;
+  padding-left: 17%;
+}
+.footer .list-group-item {
+  background-color: transparent;
+}
+.meet-elsa-img {
+  width: 642px;
+}
+.access_lesson_img {
+  width: 691px;
+}
+.personnalize_learning_img {
+  width: 802px;
+}
+.dash_board {
+  width: 700px;
+  margin-right: 70px;
+}
+.elsa-with-number {
+  color: #fff;
+}
+.elsa-with-number .title-number {
+  margin-top: 35px;
+}
+.group-image-num {
+  margin: auto;
+}
+.image-number {
+  height: 241px;
+  margin-left: -25px;
+}
+.slider-block {
+  padding-left: 100px;
+}
+#slider.carousel {
+  width: 391px;
+}
+.carousel-item .w-image {
+  width: 391px;
+}
+#carouselPartner {
+  width: 1110px;
+}
+#carouselPartner .carousel-inner {
+  width: 920px;
+}
+.appstore,
+.googleplay {
+  height: 64px;
+}
+.menu-header img {
+  width: 143px;
+}
+.horizontal-scrollable {
+  margin-top: -100px;
+}
+.horizontal-scrollable > .card-number {
+  display: inline-block;
+  float: none;
+}
+.content-header {
+  /* position: absolute;
+    top: 30px; */
+}
+a:hover {
+  color: #478dff;
+}
+.button-blue:hover {
+  background: linear-gradient(180deg, #23dfe9 -46.11%, #3539d0 151.97%);
+}
+.elsa-org-sec {
+  padding-top: 48px;
+}
+.title-space {
+  margin-bottom: 16px !important;
+}
+.title-partner {
+  padding-bottom: 24px;
+}
+.bulllet-slice-sec {
+  padding-top: 40px;
+}
+.line-height-partner {
+  line-height: 36px !important;
+}
+.elsa_number_text {
+  margin-top: 65px;
+  padding: 0 14%;
+}
+.improve-communica {
+  padding-top: 64px;
+}
+.improve-communica p {
+  max-width: 730px;
+}
+.improve-communica .description-text {
+  width: 620px;
+}
+.see-plan-sec {
+  padding-top: 48px;
+}
+.number-box {
+  background: #ffffff;
+  box-shadow: -1px 0px 22px rgb(0 0 0 / 8%);
+  border-radius: 16px;
+  color: #121131;
+  padding: 23px 23px;
+  height: 231px;
+}
+.number-box .percentage {
+  font-size: 44px;
+  line-height: 58px;
+}
+.number-box .icon {
+  width: 42px;
+}
+@media (min-width: 1601px) {
+  .header-bg {
+    height: 920px;
+  }
+}
+@media (min-width: 1400px) {
+  .pt-md-personalize {
+    padding-top: 105px;
+    margin-left: 25%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .pt-md-personalize {
+    padding-top: 105px;
+    margin-left: 20%;
+  }
+}
+@media (min-width: 1200px) {
+  .grow-business {
+    max-width: 414px;
+    margin-bottom: 0px;
+  }
+  .drive-business {
+    max-width: 436px;
+    padding-bottom: 15px;
+    opacity: 0.8;
+  }
+  .mt-md-access {
+    margin-top: 107px;
+  }
+  .pt-md-measure {
+    margin-top: 100px;
+  }
+  .mt-md-dashboard {
+    margin-top: -90px;
+  }
+}
+@media (max-width: 992px) {
+  .nav-link {
+    padding: 10px 20px;
+  }
+  .content-header .logo {
+    padding-left: 1%;
+  }
+}
+@media (max-width: 992px) {
+  .elsa-by-number {
+    /* background-image: url('./assets/elsa_number_bg_m.png'); */
+    background-image: url("./assets/img/elsa_number_bg_m.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1074px;
+    margin-top: 0px;
+  }
+  .drive-business {
+    max-width: 436px;
+    margin-bottom: 24px;
+    opacity: 0.8;
+  }
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+  p {
+    line-height: 24px;
+  }
+  .text-size-m-14 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .text-size-m-16 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .text-size-m-18 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .text-size-m-20 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .text-size-m-24 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .text-size-m-28 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .font-weight-m-700 {
+    font-weight: 700;
+  }
+  .font-weight-m-500 {
+    font-weight: 500;
+  }
+  .font-weight-m-400 {
+    font-weight: 400;
+  }
+  .label-header {
+    margin-top: 178px;
+  }
+  .text-xs-left {
+    text-align: left !important;
+  }
+  .text-xs-center {
+    text-align: center !important;
+  }
+  .trust-label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 32px;
+  }
+  .margin-left,
+  .margin-right {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .meet-elsa-img {
+    width: 344px;
+  }
+  .access_lesson_img {
+    width: 345px;
+  }
+  .personnalize_learning_img {
+    width: 330px;
+  }
+  .dash_board {
+    width: 345px;
+    margin-right: 0px;
+  }
+  .elsa-with-number {
+    color: #fff;
+    /* margin-left: 15px; */
+  }
+  .margin-left-30 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .slider-block {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #slider.carousel {
+    width: 311px;
+    margin: auto;
+  }
+  .carousel-item .w-image {
+    width: 265px;
+  }
+  .carousel-indicators {
+    bottom: -57px;
+  }
+  #carouselBulletImage .carousel-indicators {
+    bottom: -35px;
+  }
+  #carouselPartner {
+    width: 100%;
+  }
+  #carouselPartner .carousel-inner {
+    width: 90%;
+  }
+  .footer-bg {
+    background-image: url(./assets/img/footer_m.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 687px;
+  }
+  .appstore,
+  .googleplay {
+    height: 45px;
+  }
+  .footer .contact-info {
+    padding-left: 15px;
+  }
+  .nav-link {
+    padding: 10px 0px;
+  }
+  .menu-header {
+    padding-top: 25px;
+  }
+  .menu-header img {
+    width: 112px;
+  }
+  .horizontal-scrollable {
+    margin-top: -100px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .scroll-container {
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    margin-top: 162px;
+  }
+  .meet-elsa-sec {
+    padding-top: 51px;
+  }
+  .title-space {
+    margin-bottom: 8px;
+  }
+  .line-mar-t {
+    padding-top: 32px;
+  }
+  .line-mar-b {
+    margin-bottom: 32px;
+  }
+  .see-plan {
+    background-image: url(./assets/img/see_plan.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 172px;
+  }
+  .see-plan p {
+    padding-top: 32px;
+  }
+  .line-height-partner {
+    line-height: 28px !important;
+  }
+  .elsa_number_text {
+    margin-top: 20px;
+  }
+  .improve-communica p {
+    max-width: 100%;
+  }
+  .improve-communica .description-text {
+    width: 100%;
+  }
+  .improve-communica {
+    padding-top: 32px;
+  }
+  .see-plan-sec {
+    padding-top: 55px;
+  }
+  .pt-md-personalize {
+    margin: auto;
+  }
+  .pt-md-measure {
+    margin: auto;
+  }
+  .image-number {
+    height: 172px;
+    margin-left: 0px;
+  }
+  .group-image-num {
+    padding-top: 20px;
+  }
+  .mt-md-access {
+    margin: auto;
+  }
+  .carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: transform 2s ease, opacity 0.7s ease-out;
+  }
+
+  .carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+  }
+  .number-box {
+    background: #ffffff;
+    box-shadow: -1px 0px 22px rgb(0 0 0 / 8%);
+    border-radius: 16px;
+    color: #121131;
+    padding: 23px 23px;
+    height: 178px;
+    margin-bottom: 16px;
+  }
+  .number-box .percentage {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .number-box .icon {
+    width: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .header-bg {
+    background-image: url("./assets/img/baner_m.png?t=13");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 880px;
+  }
+  .header-bg .label-header {
+    margin-top: 40px;
+  }
+}
+@media (min-width: 576px) and (max-width: 1199.98px) {
+  .button-app-header {
+    top: 11vw;
+  }
+}

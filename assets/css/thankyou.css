@@ -1,0 +1,70 @@
+@media screen {
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url(/wp-content/themes/theme_lp_b2b/assets/font/SFProDisplayRegular.ttf);
+  }
+}
+
+body,
+p,
+button,
+h1,
+h2,
+label {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 650px;
+}
+
+h1 {
+  color: #22CE8C;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+hr {
+  background: #C4C4C4;
+  opacity: 0.5;
+  max-width: 160px;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.btn {
+  background: linear-gradient(180deg, #29F4FF -46.11%, #5257FF 151.97%);
+  border-radius: 123px !important;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 1rem 4rem;
+}
+
+ul {
+  border-radius: 24px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
