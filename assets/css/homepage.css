@@ -2,19 +2,19 @@
   font-family: "SF Pro Display";
   font-weight: normal;
   font-style: normal;
-  src: url(../font/SFUIDisplay-Regular.ttf);
+  src: url(https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/font/SFUIDisplay-Regular.ttf);
 }
 @font-face {
   font-family: "SF Pro Display";
   font-weight: 500;
   font-style: normal;
-  src: url(../font/SFUIDisplay-Medium.ttf);
+  src: url(https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/font/SFUIDisplay-Medium.ttf);
 }
 @font-face {
   font-family: "SF Pro Display";
   font-weight: 600;
   font-style: normal;
-  src: url(../font/SFUIDisplay-Semibold.ttf);
+  src: url(https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/font/SFUIDisplay-Semibold.ttf);
 }
 * {
   scroll-behavior: smooth;
@@ -29,14 +29,14 @@ body {
   color: #121131;
 }
 .header-bg {
-  background-image: url("../img/baner.png");
+  background-image: url("https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/img/baner.png");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   height: 807px;
 }
 .elsa-by-number {
-  background-image: url("../img/elsa_number_bg.png");
+  background-image: url("https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/img/elsa_number_bg.png");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -236,7 +236,7 @@ a {
   border-radius: 24px;
 }
 .see-plan {
-  background-image: url(../img/see_plan.svg);
+  background-image: url(https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/img/see_plan.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -250,7 +250,7 @@ a {
   width: 5%;
 }
 .footer-bg {
-  background-image: url(../img/footer_bg.svg);
+  background-image: url(https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/img/footer_bg.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -398,7 +398,7 @@ a:hover {
 
 .deal .card,
 .gift .card {
-  background-image: url("../img/bg-card1.svg");
+  background-image: url("https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/img/bg-card1.svg");
   max-width: 508px;
   background-position: center;
   background-color: #f8f8f8;
@@ -449,7 +449,7 @@ a:hover {
 }
 
 .gift .card {
-  background-image: url("../img/bg-card2.svg");
+  background-image: url("https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/img/bg-card2.svg");
 }
 
 .gift-info {
@@ -472,6 +472,32 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+.modal {
+  z-index: 99999999;
+}
+.modal-body {
+  padding: 0;
+  position: relative;
+}
+.modal-content {
+  background-color: transparent;
+  border: none;
+}
+.modal-close-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(30%, -30%);
+  background-color: #fff !important;
+  border: 3px solid #efefef !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  opacity: 1 !important;
+}
+.modal label {
+  margin-bottom: 0.1rem;
 }
 
 @media (min-width: 1601px) {
@@ -560,8 +586,8 @@ a:hover {
   }
 
   .elsa-by-number {
-    /* background-image: url('../elsa_number_bg_m.png'); */
-    background-image: url("../img/elsa_number_bg_m.png");
+    /* background-image: url('https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/elsa_number_bg_m.png'); */
+    background-image: url("https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/img/elsa_number_bg_m.png");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -727,7 +753,7 @@ a:hover {
     margin-bottom: 32px;
   }
   .see-plan {
-    background-image: url(../img/see_plan.svg);
+    background-image: url(https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/img/see_plan.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -801,16 +827,18 @@ a:hover {
     padding: 0px 20px;
   }
   .header-bg {
-    background-image: url("../img/baner_m.png");
+    background-image: url("https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/img/baner_m.png");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     height: 880px;
   }
   .header-bg .label-header {
-    margin-top: 40px;
+    margin-top: 80px;
   }
-
+  .label-header {
+    margin-left: unset;
+  }
   .deal .card .card-title > p,
   .gift .card .card-title > p {
     font-size: 25px;
