@@ -488,7 +488,7 @@
     $(document).ready(function() {
         var lang;
         if (localStorage.getItem('locale') === null) {
-            lang = _lang || 'en';
+            lang = _lang || 'vi';
         } else {
             lang = localStorage.getItem('locale');
         }
@@ -2027,7 +2027,9 @@
                 },
                 error: function(resp) {
                     if (resp.responseJSON) {
-                        const message = (localStorage.getItem('locale') === 'vi') ?
+                        let lang = (localStorage.getItem('locale')) ? localStorage.getItem(
+                            'locale') : 'vi';
+                        const message = (lang === 'vi') ?
                             "Tên công ty đã tồn tại" : "Duplicate company name";
                         $('#duplicate_company_name').append(
                             `<label class="error">${message}</label>`);
