@@ -25,78 +25,78 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script
         src="https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/jquery.i18n/CLDRPluralRuleParser.js">
-        </script>
+    </script>
     <script
         src="https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/jquery.i18n/jquery.i18n.js">
-        </script>
+    </script>
     <script
         src="https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/jquery.i18n/jquery.i18n.messagestore.js">
-        </script>
+    </script>
     <script
         src="https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/jquery.i18n/jquery.i18n.fallbacks.js">
-        </script>
+    </script>
     <script
         src="https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/jquery.i18n/jquery.i18n.language.js">
-        </script>
+    </script>
     <script
         src="https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/jquery.i18n/jquery.i18n.parser.js">
-        </script>
+    </script>
     <script
         src="https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/jquery.i18n/jquery.i18n.emitter.js">
-        </script>
+    </script>
     <script
         src="https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/jquery.i18n/jquery.i18n.emitter.bidi.js">
-        </script>
+    </script>
 
     <script>
-        function initI18nWithoutFooter() {
-            var default_lang = _lang || 'en';
-            var version = '1.0.5';
-            $.i18n({
-                locale: localStorage.getItem('locale') || default_lang,
-            }).load({
-                'en': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/en.json?v=' +
-                    version,
-                'vi': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/vi.json?v=' +
-                    version,
-                'ja': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/ja.json?v=' +
-                    version,
-                'es': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/es.json?v=' +
-                    version,
-                'pt': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/pt.json?v=' +
-                    version,
-            }).done(() => {
-                $("#locallize_i18n").i18n();
-            });
-        }
+    function initI18nWithoutFooter() {
+        var default_lang = _lang || 'en';
+        var version = '1.0.5';
+        $.i18n({
+            locale: localStorage.getItem('locale') || default_lang,
+        }).load({
+            'en': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/en.json?v=' +
+                version,
+            'vi': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/vi.json?v=' +
+                version,
+            'ja': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/ja.json?v=' +
+                version,
+            'es': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/es.json?v=' +
+                version,
+            'pt': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/pt.json?v=' +
+                version,
+        }).done(() => {
+            $("#locallize_i18n").i18n();
+        });
+    }
     </script>
     <script>
-        var country = "VN";
-        var _lang = "en-US";
-        var _paypal_currency = "USD";
-        var DEFAULT_COUNTRY_LANG = {
-            'VN': 'vi',
-            'JP': 'ja',
-            'BR': 'pt',
-            'ES': 'es',
-        };
-        var PAYPAL_COUNTRY_CURRENCIES = {
-            "VN": "USD",
-            "JP": "JPY",
-            "BR": "BRL",
-            "ES": "USD"
-        };
-        const WEB_BASE_URL = 'https://elsaspeak.com/b2b';
-        const API_BASE_URL = 'https://b2b-server.elsanow.io';
+    var country = "VN";
+    var _lang = "en-US";
+    var _paypal_currency = "USD";
+    var DEFAULT_COUNTRY_LANG = {
+        'VN': 'vi',
+        'JP': 'ja',
+        'BR': 'pt',
+        'ES': 'es',
+    };
+    var PAYPAL_COUNTRY_CURRENCIES = {
+        "VN": "USD",
+        "JP": "JPY",
+        "BR": "BRL",
+        "ES": "USD"
+    };
+    const WEB_BASE_URL = 'https://elsaspeak.com/b2b';
+    const API_BASE_URL = 'https://b2b-server.elsanow.io';
 
-        if (DEFAULT_COUNTRY_LANG[country]) {
-            _lang = DEFAULT_COUNTRY_LANG[country];
-        } else {
-            _lang = 'en';
-        }
-        if (PAYPAL_COUNTRY_CURRENCIES[country]) {
-            _paypal_currency = PAYPAL_COUNTRY_CURRENCIES[country];
-        }
+    if (DEFAULT_COUNTRY_LANG[country]) {
+        _lang = DEFAULT_COUNTRY_LANG[country];
+    } else {
+        _lang = 'en';
+    }
+    if (PAYPAL_COUNTRY_CURRENCIES[country]) {
+        _paypal_currency = PAYPAL_COUNTRY_CURRENCIES[country];
+    }
     </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
@@ -105,7 +105,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/js/jquery.lazy.min.js">
     </script>
     <title>ELSA - Gói doanh nghiệp</title>
@@ -115,26 +115,26 @@
 
     <!-- FB Pixel 754267458487273 -->
     <script>
-        ! function (f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function () {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '754267458487273');
-        fbq('track', 'PageView');
+    ! function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '754267458487273');
+    fbq('track', 'PageView');
     </script>
     <!-- FB Pixel -->
 </head>
@@ -147,170 +147,170 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async defer src="https://www.googletagmanager.com/gtag/js?id=UA-123524315-1"></script>
     <script defer>
-        window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-        gtag('config', 'UA-123524315-1');
+    gtag('config', 'UA-123524315-1');
     </script>
 
     <!-- Google Tag Manager -->
     <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-WQNZLV3');
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WQNZLV3');
     </script>
     <!-- End Google Tag Manager -->
 
     <style>
-        label.error {
-            color: red;
-        }
+    label.error {
+        color: red;
+    }
 
-        .content-header .logo {
-            padding-left: 0px;
-        }
+    .content-header .logo {
+        padding-left: 0px;
+    }
 
-        .content-header .menu-header {
-            padding-top: 0px;
-        }
+    .content-header .menu-header {
+        padding-top: 0px;
+    }
 
-        .menu-header img {
-            width: 143px;
-        }
+    .menu-header img {
+        width: 143px;
+    }
 
-        .menu-header {
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 24px;
-            padding-top: 37px;
-        }
+    .menu-header {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 37px;
+    }
 
-        .content-header .menu-header {
-            padding-top: 0px;
+    .content-header .menu-header {
+        padding-top: 0px;
+    }
+
+    .nav-link {
+        padding: 0px 35px;
+    }
+
+    .content-header a {
+        color: #121131 !important;
+    }
+
+    .content-header a.book-demo {
+        color: #478DFF !important;
+    }
+
+    .book-demo {
+        border: 2px solid #478DFF;
+        box-sizing: border-box;
+        border-radius: 123px;
+        padding: 4px 26px !important;
+        margin: -2px 30px;
+    }
+
+    .language-icon {
+        padding: 0px;
+    }
+
+    .content-header .d-lg-flex {
+        height: 90px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .booking-form {
+        margin: auto;
+        width: 100%;
+        padding: 30px;
+        background-color: white;
+        /*height: 1020px;*/
+        filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.1));
+        background: #FFFFFF;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 24px;
+    }
+
+    .booking-form input,
+    .booking-form select {
+        height: 54px;
+        border: 1px solid #E6E6E6;
+        box-sizing: border-box;
+        border-radius: 16px;
+    }
+
+    .booking-form textarea {
+        height: 134px;
+        border: 1px solid #E6E6E6;
+        box-sizing: border-box;
+        border-radius: 16px;
+    }
+
+    .booking-form .form-group {
+        margin-bottom: 16px;
+    }
+
+    .booking-title {
+        margin-bottom: 56px;
+    }
+
+    /* 	.content-header .d-xs-inline-flex {
+		height: 90px;
+	} */
+    .nav-item.dropdown {
+        border: 1px solid #E6E6E6;
+        border-radius: 123px;
+        padding: 8px 20px;
+    }
+
+    @media (max-width: 992px) {
+        .nav-item.dropdown {
+            border: none;
+            border-radius: 123px;
+            padding: unset;
         }
 
         .nav-link {
-            padding: 0px 35px;
+            padding: 10px 20px;
         }
 
-        .content-header a {
-            color: #121131 !important;
+        .content-header .logo {
+            padding-left: 1%;
         }
 
-        .content-header a.book-demo {
-            color: #478DFF !important;
+        .content-header .navbar {
+            padding: 4px 1rem 3px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .menu-header {
+            padding-top: 25px;
         }
 
-        .book-demo {
-            border: 2px solid #478DFF;
-            box-sizing: border-box;
-            border-radius: 123px;
-            padding: 4px 26px !important;
-            margin: -2px 30px;
+        .menu-header img {
+            width: 112px;
         }
 
-        .language-icon {
-            padding: 0px;
+        .nav-link {
+            padding: 10px 0px;
         }
-
-        .content-header .d-lg-flex {
-            height: 90px;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .booking-form {
-            margin: auto;
-            width: 100%;
-            padding: 30px;
-            background-color: white;
-            /*height: 1020px;*/
-            filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.1));
-            background: #FFFFFF;
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-            border-radius: 24px;
-        }
-
-        .booking-form input,
-        .booking-form select {
-            height: 54px;
-            border: 1px solid #E6E6E6;
-            box-sizing: border-box;
-            border-radius: 16px;
-        }
-
-        .booking-form textarea {
-            height: 134px;
-            border: 1px solid #E6E6E6;
-            box-sizing: border-box;
-            border-radius: 16px;
-        }
-
-        .booking-form .form-group {
-            margin-bottom: 16px;
-        }
-
-        .booking-title {
-            margin-bottom: 56px;
-        }
-
-        /* 	.content-header .d-xs-inline-flex {
-		height: 90px;
-	} */
-        .nav-item.dropdown {
-            border: 1px solid #E6E6E6;
-            border-radius: 123px;
-            padding: 8px 20px;
-        }
-
-        @media (max-width: 992px) {
-            .nav-item.dropdown {
-                border: none;
-                border-radius: 123px;
-                padding: unset;
-            }
-
-            .nav-link {
-                padding: 10px 20px;
-            }
-
-            .content-header .logo {
-                padding-left: 1%;
-            }
-
-            .content-header .navbar {
-                padding: 4px 1rem 3px;
-            }
-        }
-
-        @media (max-width: 767px) {
-            .menu-header {
-                padding-top: 25px;
-            }
-
-            .menu-header img {
-                width: 112px;
-            }
-
-            .nav-link {
-                padding: 10px 0px;
-            }
-        }
+    }
     </style>
 
     <div class="nav-top-fixed content-header shadow">
@@ -471,61 +471,61 @@
         </div>
     </div>
     <script>
-        var flags = {
-            "vi": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFsSURBVHjaYvzPgAD/UNlYEUAAmuTYAAAQhAEYqF/zFbe50RZ1cMmS9TLi0pJLRjZohAMTGFUN9HdnHgEE1sDw//+Tp0ClINW/f4NI9d////3+f+b3/1+////+9f/XL6A4o6ws0AaAAGIBm/0fRTVQ2v3Pf97f/4/9Aqv+DdHA8Ps3UANAALEAMSNQNdDGP3+ALvnf8vv/t9//9X/////7f+uv/4K//iciNABNBwggsJP+/IW4kuH3n//1v/8v+wVSDURmv/57//7/CeokoKFA0wECiAnkpL9/wH4CO+DNr/+VQA1A9PN/w6//j36CVIMRxEkAAQR20m+QpSBXgU0CuSTj9/93v/8v//V/xW+48UBD/zAwAAQQSAMzOMiABoBUswCd8ev/M7A669//OX7///Lr/x+gBlCoAJ0DEEAgDUy//zBISoKNAfoepJNRFmQkyJecfxj4/kDCEIiAigECiPErakTiiWMIAAgwAB4ZUlqMMhQQAAAAAElFTkSuQmCC",
-            "en": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC",
-            "ja": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAE2SURBVHjaYvz69SsDEvj37x+ERGbAwZ9//wACiAUoysXFBST///8P0QOm//+HU0jgxYsXAAHEAlP0H8HYt+//4SP/f//6b2b238sLrpqRkRFoCUAAsaCrXrv2/8KF///8+f/r9//Dh/8/ffI/OQWiAeJCgABigrseJPT27f/Vq////v3/1y8oWrzk/+PHcEv+/PkDEEBMEM/B3fj/40eo0t9g8suX/w8f/odZAVQMEEAsQAzj/2cQFf3PxARWCrYEaBXQLCkpqB/+/wcqBgggJrjxQPX/hYX/+/v///kLqhpIBgf/l5ODhxiQBAggFriToDoTEv5zcf3ftQuk2s7uf0wM3MdAAPQDQAAxvn37lo+PDy4KZUDcycj4/z9CBojv3r0LEEAgG969eweLSBDEBSCWAAQYACaTbJ/kuok9AAAAAElFTkSuQmCC",
-            "pt": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHjSURBVHjaYmRIZkCAfwwMf2DkLzCCMyDoBwNAALEAlTVGN/5nYPj//x8Q/P3/9++/vzZa31gY/mw5z/Tn3x8g98+f37///fn99/eq2lUAAQTS8J/h/7NPz/9C5P79WRj89f9/zv//fztLvPVezPzrz+8/f3//+vtLhl8GaANAAIE1/P8PVA1U6qn7NVTqb1XVpAv/JH7/+a/848XmtpBlj39PO8gM1PP7z2+gqwACiAnoYpC9TF9nB34NVf5z4XpoZJbEjJKfWaEfL7KLlbaURKj8Opj08RfIVb+BNgAEEBPQW1L8P+b6/mb6//s/w+/+nc4F0/9P2cj65xdHc+p/QR39//9/AdHJ9A/60l8YvjIABBAT0JYH75jStv75zwCSMBY8BXTMxXv/21ezfHj9X5/3BESDy5JfBy7/ZuBnAAggkA1//vx594kpaCnLloe/smLaVT9/ff3y/+/P/w+u/+JuW7fhwS/tSayPXrOycrEyfGQACCAWoA1//oOCDIgm72fu4vy6b4LD/9/S/3///s9+S28yy+9/LEAf//kLChVgCAEEEEjD7z9/JHgkQeHwD8gUjV79O9r6CzPLv6lr1OUFwWH9Fxjcv//9BcYoA0AAMTI4ImIROUYRMf2XARkABBgA8kMvQf3q+24AAAAASUVORK5CYII=",
-            "es": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFnSURBVHjaYvzPgAD/UNlYEUAAmuTYAAAQhAEYqF/zFbe50RZ1cMmS9TLi0pJLRjZohAMTGFUN9HdnHgEE1sDw//+Tp0ClINW/f0NIKPoFJH/9//ULyGaUlQXaABBALAx/Gf4zAt31F4i+ffj3/cN/XrFfzOx//v///f//LzACM/79ZmD8/e8TA0AAMYHdDVT958vXP38nMDB0s3x94/Tj5y+YahhiAKLfQKUAAcQEdtJfoDHMF2L+vPzDmFXLelf551tGFOOhev4A/QgQQExgHwAd8IdFT/Wz6j+GhlpmXSOW/2z///8Eq/sJ18Dw/zdQA0AAMQExxJjjdy9x2/76EfLz4MXdP/i+wsyGkkA3Aw3984cBIIAYfzIwMKel/bt3jwEaLNAwgZIQxp/fDH/+MqqovL14ESCAWICeZvr9h0FSEhSgwBgAygFDEMT+wwAhgQgc4kAEVAwQQIxfUSMSTxxDAECAAQAJWke8v4u1tAAAAABJRU5ErkJggg=="
+    var flags = {
+        "vi": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFsSURBVHjaYvzPgAD/UNlYEUAAmuTYAAAQhAEYqF/zFbe50RZ1cMmS9TLi0pJLRjZohAMTGFUN9HdnHgEE1sDw//+Tp0ClINW/f4NI9d////3+f+b3/1+////+9f/XL6A4o6ws0AaAAGIBm/0fRTVQ2v3Pf97f/4/9Aqv+DdHA8Ps3UANAALEAMSNQNdDGP3+ALvnf8vv/t9//9X/////7f+uv/4K//iciNABNBwggsJP+/IW4kuH3n//1v/8v+wVSDURmv/57//7/CeokoKFA0wECiAnkpL9/wH4CO+DNr/+VQA1A9PN/w6//j36CVIMRxEkAAQR20m+QpSBXgU0CuSTj9/93v/8v//V/xW+48UBD/zAwAAQQSAMzOMiABoBUswCd8ev/M7A669//OX7///Lr/x+gBlCoAJ0DEEAgDUy//zBISoKNAfoepJNRFmQkyJecfxj4/kDCEIiAigECiPErakTiiWMIAAgwAB4ZUlqMMhQQAAAAAElFTkSuQmCC",
+        "en": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC",
+        "ja": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAE2SURBVHjaYvz69SsDEvj37x+ERGbAwZ9//wACiAUoysXFBST///8P0QOm//+HU0jgxYsXAAHEAlP0H8HYt+//4SP/f//6b2b238sLrpqRkRFoCUAAsaCrXrv2/8KF///8+f/r9//Dh/8/ffI/OQWiAeJCgABigrseJPT27f/Vq////v3/1y8oWrzk/+PHcEv+/PkDEEBMEM/B3fj/40eo0t9g8suX/w8f/odZAVQMEEAsQAzj/2cQFf3PxARWCrYEaBXQLCkpqB/+/wcqBgggJrjxQPX/hYX/+/v///kLqhpIBgf/l5ODhxiQBAggFriToDoTEv5zcf3ftQuk2s7uf0wM3MdAAPQDQAAxvn37lo+PDy4KZUDcycj4/z9CBojv3r0LEEAgG969eweLSBDEBSCWAAQYACaTbJ/kuok9AAAAAElFTkSuQmCC",
+        "pt": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHjSURBVHjaYmRIZkCAfwwMf2DkLzCCMyDoBwNAALEAlTVGN/5nYPj//x8Q/P3/9++/vzZa31gY/mw5z/Tn3x8g98+f37///fn99/eq2lUAAQTS8J/h/7NPz/9C5P79WRj89f9/zv//fztLvPVezPzrz+8/f3//+vtLhl8GaANAAIE1/P8PVA1U6qn7NVTqb1XVpAv/JH7/+a/848XmtpBlj39PO8gM1PP7z2+gqwACiAnoYpC9TF9nB34NVf5z4XpoZJbEjJKfWaEfL7KLlbaURKj8Opj08RfIVb+BNgAEEBPQW1L8P+b6/mb6//s/w+/+nc4F0/9P2cj65xdHc+p/QR39//9/AdHJ9A/60l8YvjIABBAT0JYH75jStv75zwCSMBY8BXTMxXv/21ezfHj9X5/3BESDy5JfBy7/ZuBnAAggkA1//vx594kpaCnLloe/smLaVT9/ff3y/+/P/w+u/+JuW7fhwS/tSayPXrOycrEyfGQACCAWoA1//oOCDIgm72fu4vy6b4LD/9/S/3///s9+S28yy+9/LEAf//kLChVgCAEEEEjD7z9/JHgkQeHwD8gUjV79O9r6CzPLv6lr1OUFwWH9Fxjcv//9BcYoA0AAMTI4ImIROUYRMf2XARkABBgA8kMvQf3q+24AAAAASUVORK5CYII=",
+        "es": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFnSURBVHjaYvzPgAD/UNlYEUAAmuTYAAAQhAEYqF/zFbe50RZ1cMmS9TLi0pJLRjZohAMTGFUN9HdnHgEE1sDw//+Tp0ClINW/f0NIKPoFJH/9//ULyGaUlQXaABBALAx/Gf4zAt31F4i+ffj3/cN/XrFfzOx//v///f//LzACM/79ZmD8/e8TA0AAMYHdDVT958vXP38nMDB0s3x94/Tj5y+YahhiAKLfQKUAAcQEdtJfoDHMF2L+vPzDmFXLelf551tGFOOhev4A/QgQQExgHwAd8IdFT/Wz6j+GhlpmXSOW/2z///8Eq/sJ18Dw/zdQA0AAMQExxJjjdy9x2/76EfLz4MXdP/i+wsyGkkA3Aw3984cBIIAYfzIwMKel/bt3jwEaLNAwgZIQxp/fDH/+MqqovL14ESCAWICeZvr9h0FSEhSgwBgAygFDEMT+wwAhgQgc4kAEVAwQQIxfUSMSTxxDAECAAQAJWke8v4u1tAAAAABJRU5ErkJggg=="
+    }
+    var languages = {
+        "en": "English",
+        "vi": "Tiếng việt",
+        "ja": "日本語",
+        "pt": "Português",
+        "es": "Español"
+    }
+    $(document).ready(function() {
+        var lang;
+        if (localStorage.getItem('locale') === null) {
+            lang = _lang || 'vi';
+        } else {
+            lang = localStorage.getItem('locale');
         }
-        var languages = {
-            "en": "English",
-            "vi": "Tiếng việt",
-            "ja": "日本語",
-            "pt": "Português",
-            "es": "Español"
-        }
-        $(document).ready(function () {
-            var lang;
-            if (localStorage.getItem('locale') === null) {
-                lang = _lang || 'vi';
-            } else {
-                lang = localStorage.getItem('locale');
-            }
-            $('.lang-code').text(languages[lang])
-            $('img.lang-flag').attr('src', flags[lang])
-        });
+        $('.lang-code').text(languages[lang])
+        $('img.lang-flag').attr('src', flags[lang])
+    });
 
-        function changeLanguage(lang) {
-            $.i18n().locale = lang;
-            $("#locallize_i18n").i18n();
-            $('.lang-code').text(languages[lang])
-            $('img.lang-flag').attr('src', flags[lang])
-            localStorage.setItem("locale", lang);
-            if (window.location.pathname.includes('plans')) {
-                initPrice();
-            }
-            //ChangeIdForm
-            $('.register-form').attr('id', 'register_' + lang);
-            $('#register_vi').validate().resetForm();
-            $('#register_en').validate().resetForm();
+    function changeLanguage(lang) {
+        $.i18n().locale = lang;
+        $("#locallize_i18n").i18n();
+        $('.lang-code').text(languages[lang])
+        $('img.lang-flag').attr('src', flags[lang])
+        localStorage.setItem("locale", lang);
+        if (window.location.pathname.includes('plans')) {
+            initPrice();
         }
+        //ChangeIdForm
+        $('.register-form').attr('id', 'register_' + lang);
+        $('#register_vi').validate().resetForm();
+        $('#register_en').validate().resetForm();
+    }
 
-        function formatPrice(price, currency = 'usd') {
-            return Intl.NumberFormat(_lang, {
-                style: 'currency',
-                currency: currency.toUpperCase()
-            }).format(price)
-        }
+    function formatPrice(price, currency = 'usd') {
+        return Intl.NumberFormat(_lang, {
+            style: 'currency',
+            currency: currency.toUpperCase()
+        }).format(price)
+    }
     </script>
     <script>
-        var link_class = 'keep-param';
-        $(document).ready(function () {
-            var query_string = location.search;
-            $('a.keep-param').each(function (index) {
-                this.href = this.href + query_string;
-            });
-        })
+    var link_class = 'keep-param';
+    $(document).ready(function() {
+        var query_string = location.search;
+        $('a.keep-param').each(function(index) {
+            this.href = this.href + query_string;
+        });
+    })
     </script>
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -1168,14 +1168,6 @@
                                             <p class="color-blue font-weight-600" data-i18n="Free">Miễn phí</p>
                                         </div>
                                     </div>
-                                    <!-- <div class="row mb-2 pl-3 pr-3">
-                                        <div class="p-0 col-6 text-left font-weight-600">
-                                            <p>Testing Platform</p>
-                                        </div>
-                                        <div class="p-0 col-6 text-right d-flex align-items-center justify-content-end">
-                                            <p class="color-blue font-weight-600">80.000 Đ</p>
-                                        </div>
-                                    </div> -->
                                     <div class="border-top border-bottom pt-2 pb-2">
                                         <div class="row mb-2 pl-3 pr-3">
                                             <div class="p-0 col-9 text-left font-weight-600">
@@ -1192,7 +1184,7 @@
                                                 </p>
                                             </div>
                                             <div class="p-0 col-3 text-right">
-                                                <p class="color-blue font-weight-600">20</p>
+                                                <p class="color-blue font-weight-600">50</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1777,190 +1769,190 @@
         </div>
     </section>
     <style>
-        .text-size-12 {
-            font-size: 12px;
-        }
+    .text-size-12 {
+        font-size: 12px;
+    }
 
-        .footer .contact-info {
-            font-size: 16px;
-            line-height: 32px;
-            color: #FFFFFF;
-            opacity: 0.8;
-            padding-left: 150px;
-        }
+    .footer .contact-info {
+        font-size: 16px;
+        line-height: 32px;
+        color: #FFFFFF;
+        opacity: 0.8;
+        padding-left: 150px;
+    }
 
-        .desktop {
-            display: flex;
+    .desktop {
+        display: flex;
+    }
+
+    .menu-header {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 37px;
+    }
+
+    .content-header .menu-header {
+        padding-top: 0px;
+    }
+
+    .menu-header img {
+        width: 143px;
+    }
+
+    .footer .nav-link {
+        padding: 8px 0px !important;
+    }
+
+    .footer-bg {
+        background-image: url(https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/img/footer_bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 340px;
+    }
+
+    .appstore,
+    .googleplay {
+        height: 64px;
+    }
+
+    .text-size-16 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .footer .text-size-18 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .footer .text-size-20 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .footer .text-size-22 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .footer .text-size-24 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .text-size-32 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .text-size-36 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    a {
+        color: #ffffff;
+    }
+
+    .align-left {
+        padding-left: 150px;
+    }
+
+    .align-right {
+        padding-right: 150px;
+    }
+
+    .tietkiem {
+        background: #FF4B2B;
+        display: inline-block;
+        padding: 2px 28px;
+        margin-top: 10px !important;
+        border-radius: 20px;
+        color: #fff;
+    }
+
+    @media (max-width: 992px) {
+        .nav-link {
+            padding: 0px 20px;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .button-white {
+            padding: 7px 13px;
         }
 
         .menu-header {
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 24px;
-            padding-top: 37px;
-        }
-
-        .content-header .menu-header {
-            padding-top: 0px;
+            padding-top: 25px;
         }
 
         .menu-header img {
-            width: 143px;
+            width: 112px;
         }
 
-        .footer .nav-link {
-            padding: 8px 0px !important;
+        .desktop {
+            display: none;
+        }
+
+        .nav-link {
+            padding: 10px 0px;
+        }
+
+        .footer .contact-info {
+            padding-left: 15px;
         }
 
         .footer-bg {
-            background-image: url(https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/img/footer_bg.png);
+            background: #121131;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height: 340px;
+            height: fit-content;
         }
 
         .appstore,
         .googleplay {
-            height: 64px;
+            height: 45px;
         }
 
-        .text-size-16 {
+        .text-xs-left {
+            text-align: left !important;
+        }
+
+        .text-xs-center {
+            text-align: center !important;
+        }
+
+        .text-size-m-16 {
             font-size: 16px;
-            line-height: 28px;
+            line-height: 24px;
         }
 
-        .footer .text-size-18 {
+        .text-size-m-18 {
             font-size: 18px;
             line-height: 28px;
         }
 
-        .footer .text-size-20 {
-            font-size: 20px;
-            line-height: 32px;
-        }
-
-        .footer .text-size-22 {
-            font-size: 22px;
-            line-height: 32px;
-        }
-
-        .footer .text-size-24 {
+        .text-size-m-24 {
             font-size: 24px;
             line-height: 36px;
         }
 
-        .text-size-32 {
-            font-size: 32px;
-            line-height: 48px;
-        }
-
-        .text-size-36 {
-            font-size: 36px;
-            line-height: 48px;
-        }
-
-        a {
-            color: #ffffff;
+        .text-size-m-28 {
+            font-size: 28px;
+            line-height: 40px;
         }
 
         .align-left {
-            padding-left: 150px;
+            padding-left: 15px;
         }
 
         .align-right {
-            padding-right: 150px;
+            padding-right: 15px;
         }
-
-        .tietkiem {
-            background: #FF4B2B;
-            display: inline-block;
-            padding: 2px 28px;
-            margin-top: 10px !important;
-            border-radius: 20px;
-            color: #fff;
-        }
-
-        @media (max-width: 992px) {
-            .nav-link {
-                padding: 0px 20px;
-            }
-        }
-
-        @media (max-width: 991px) {
-            .button-white {
-                padding: 7px 13px;
-            }
-
-            .menu-header {
-                padding-top: 25px;
-            }
-
-            .menu-header img {
-                width: 112px;
-            }
-
-            .desktop {
-                display: none;
-            }
-
-            .nav-link {
-                padding: 10px 0px;
-            }
-
-            .footer .contact-info {
-                padding-left: 15px;
-            }
-
-            .footer-bg {
-                background: #121131;
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                height: fit-content;
-            }
-
-            .appstore,
-            .googleplay {
-                height: 45px;
-            }
-
-            .text-xs-left {
-                text-align: left !important;
-            }
-
-            .text-xs-center {
-                text-align: center !important;
-            }
-
-            .text-size-m-16 {
-                font-size: 16px;
-                line-height: 24px;
-            }
-
-            .text-size-m-18 {
-                font-size: 18px;
-                line-height: 28px;
-            }
-
-            .text-size-m-24 {
-                font-size: 24px;
-                line-height: 36px;
-            }
-
-            .text-size-m-28 {
-                font-size: 28px;
-                line-height: 40px;
-            }
-
-            .align-left {
-                padding-left: 15px;
-            }
-
-            .align-right {
-                padding-right: 15px;
-            }
-        }
+    }
     </style>
     <!-- Footer -->
     <footer class="footer mt-auto" style="padding-top: 70px;">
@@ -2047,273 +2039,273 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script>
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 50) {
-                $('.nav-top-fixed').addClass('shadow');
-            } else {
-                $('.nav-top-fixed').removeClass('shadow');
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+            $('.nav-top-fixed').addClass('shadow');
+        } else {
+            $('.nav-top-fixed').removeClass('shadow');
+        }
+    });
+    </script>
+    <script>
+    var default_lang = _lang || 'vi';
+    var version = '1.0.9';
+    $(document).ready(function() {
+        $.i18n({
+            locale: localStorage.getItem('locale') || default_lang,
+        }).load({
+            'en': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/en.json?v=' +
+                version,
+            'vi': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/vi.json?v=' +
+                version,
+            'ja': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/ja.json?v=' +
+                version,
+            'es': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/es.json?v=' +
+                version,
+            'pt': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/pt.json?v=' +
+                version,
+        }).done(() => {
+            $("#locallize_i18n").i18n();
+            if (window.location.pathname.includes('plans')) {
+                initPrice();
             }
         });
+    })
     </script>
     <script>
-        var default_lang = _lang || 'vi';
-        var version = '1.0.9';
-        $(document).ready(function () {
-            $.i18n({
-                locale: localStorage.getItem('locale') || default_lang,
-            }).load({
-                'en': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/en.json?v=' +
-                    version,
-                'vi': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/vi.json?v=' +
-                    version,
-                'ja': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/ja.json?v=' +
-                    version,
-                'es': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/es.json?v=' +
-                    version,
-                'pt': 'https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/i18n/pt.json?v=' +
-                    version,
-            }).done(() => {
-                $("#locallize_i18n").i18n();
-                if (window.location.pathname.includes('plans')) {
-                    initPrice();
-                }
-            });
-        })
-    </script>
-    <script>
-        $(document).on('click', function () {
-            $('.collapse').collapse('hide');
-        })
-        $('#slider').on('slide.bs.carousel', function () {
-            toIndex = $('div.active').index();
-            $('.item-' + toIndex).removeClass("back-ground-active")
-            $('.item-' + toIndex).find('.title-item').removeClass("title-active")
-            $('.item-' + toIndex).find('.icon-active').hide()
-            $('.item-' + toIndex).find('.icon-inactive').show()
-        })
-        $('#slider').on('slid.bs.carousel', function () {
-            fromIndex = $('div.active').index();
-            $('.item-' + fromIndex).addClass("back-ground-active")
-            $('.item-' + fromIndex).find('.title-item').addClass('title-active')
-            $('.item-' + fromIndex).find('.icon-active').show()
-            $('.item-' + fromIndex).find('.icon-inactive').hide()
-        })
-        $(function () {
-            $('.lazy').Lazy();
-        });
+    $(document).on('click', function() {
+        $('.collapse').collapse('hide');
+    })
+    $('#slider').on('slide.bs.carousel', function() {
+        toIndex = $('div.active').index();
+        $('.item-' + toIndex).removeClass("back-ground-active")
+        $('.item-' + toIndex).find('.title-item').removeClass("title-active")
+        $('.item-' + toIndex).find('.icon-active').hide()
+        $('.item-' + toIndex).find('.icon-inactive').show()
+    })
+    $('#slider').on('slid.bs.carousel', function() {
+        fromIndex = $('div.active').index();
+        $('.item-' + fromIndex).addClass("back-ground-active")
+        $('.item-' + fromIndex).find('.title-item').addClass('title-active')
+        $('.item-' + fromIndex).find('.icon-active').show()
+        $('.item-' + fromIndex).find('.icon-inactive').hide()
+    })
+    $(function() {
+        $('.lazy').Lazy();
+    });
     </script>
     <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
         data-cf-settings="b2c9fa69bf21bf5a311ec2b5-|49" defer=""></script>
     <script>
-        //handle selectPackage
-        function selectPackage(package) {
-            $('#promotion_package').val(package);
-        }
-        $(document).ready(function () {
-            let lang = (localStorage.getItem("locale")) ? localStorage.getItem("locale") : 'vi';
-            $('.register-form').attr('id', 'register_' + lang);
-            $('#companyNameInput').keyup(function (e) {
-                $('#duplicate_company_name').empty();
-            });
-
-            //Submit form
-            function hanleSubmit() {
-                data_post = {
-                    type: 'Business',
-                    email: $('#emailInput').val(),
-                    phone: $('#phoneInput').val(),
-                    name: $('#firstNameInput').val() + ' ' + $('#lastNameInput').val(),
-                    organization_name: $('#companyNameInput').val(),
-                    organization_size: $('#companySizeInput').val(),
-                    expected_number_of_learner: $('#learnerNumberInput').val(),
-                    phone_number: $('#phoneInput').val(),
-                    job_title: $('#jobInput').val(),
-                    note: $('#inquiryInput').val(),
-                    country: $('#countryInput').val(),
-                    utm_term: $('#utm_term').val(),
-                    // search: document.getElementById("elsa-search").value = window.location.search,
-                    promotion_package: $('#promotion_package').val(),
-                    //'g-recaptcha-response': v,
-                }
-                console.log(data_post);
-                $.ajax({
-                    type: "POST",
-                    url: 'https://elsaspeak.com/api/elsab2bsolution',
-                    data: JSON.stringify(data_post),
-                    dataType: 'json',
-                    success: function (resp) {
-                        if (resp) {
-                            if (resp.success) {
-                                window.location.href = 'https://vn.elsaspeak.com/thank-you/';
-                            }
-                            console.log(data_post);
-                        }
-                    },
-                    error: function (resp) {
-                        if (resp.responseJSON) {
-                            let lang = (localStorage.getItem('locale')) ? localStorage.getItem(
-                                'locale') : 'vi';
-                            const message = (lang === 'vi') ?
-                                "Tên công ty đã tồn tại" : "Duplicate company name";
-                            $('#duplicate_company_name').append(
-                                `<label class="error">${message}</label>`);
-                            $('#companyNameInput').focus();
-                            console.log(resp.responseJSON.msg);
-                        }
-                    }
-                });
-            }
-            //Check number phone VN format
-            $.validator.addMethod(
-                "VnNumberPhone",
-                function (value, element, arg) {
-                    const regex = /(84|0[3|5|7|8|9|2])+([0-9]{8})\b/;
-                    return regex.test(value);
-                },
-                "Số không hợp lệ"
-            );
-
-            $("#register_vi").validate({
-                rules: {
-                    firstNameInput: {
-                        required: true,
-                        maxlength: 20
-                    },
-                    lastNameInput: {
-                        required: true,
-                        maxlength: 20
-                    },
-                    countryInput: "required",
-                    companyNameInput: "required",
-                    jobInput: "required",
-                    companySizeInput: {
-                        required: true,
-                        min: 1
-                    },
-                    learnerNumberInput: {
-                        required: true,
-                        min: 1
-                    },
-                    phoneInput: {
-                        required: true,
-                        digits: true,
-                        VnNumberPhone: true,
-                    },
-                    emailInput: {
-                        required: true,
-                        email: true,
-                    }
-                },
-
-                messages: {
-                    firstNameInput: {
-                        required: "Vui lòng nhập tên",
-                        maxlength: "Vui lòng nhập tên ít hơn 20 kí tự"
-                    },
-                    lastNameInput: {
-                        required: "Vui lòng nhập họ",
-                        maxlength: "Vui lòng nhập họ ít hơn 20 kí tự"
-                    },
-                    countryInput: "Vui lòng nhập quốc gia",
-                    companyNameInput: "Vui lòng nhập tên công ty",
-                    jobInput: "Vui lòng nhập chức danh của bạn",
-                    companySizeInput: {
-                        required: "Vui lòng nhập số nhân viên của công ty",
-                        min: "Vui lòng nhập số nhân viên của công ty",
-                        number: "Vui lòng nhập số"
-                    },
-                    learnerNumberInput: {
-                        required: "Vui lòng nhập số học viên",
-                        min: "Vui lòng nhập số học viên",
-                        number: "Vui lòng nhập số"
-                    },
-                    phoneInput: {
-                        required: "Vui lòng nhập số điện thoại",
-                        digits: "Sai định dạng",
-                        VnNumberPhone: "Sai định dạng"
-                    },
-                    emailInput: {
-                        required: "Vui lòng nhập email",
-                        email: "Sai định dạng",
-                    }
-                },
-
-                submitHandler: function (form) {
-                    hanleSubmit();
-                },
-            });
-
-            //validate form en
-            $("#register_en").validate({
-                rules: {
-                    firstNameInput: {
-                        required: true,
-                        maxlength: 20
-                    },
-                    lastNameInput: {
-                        required: true,
-                        maxlength: 20
-                    },
-                    countryInput: "required",
-                    companyNameInput: "required",
-                    jobInput: "required",
-                    companySizeInput: {
-                        required: true,
-                        min: 1
-                    },
-                    learnerNumberInput: {
-                        required: true,
-                        min: 1
-                    },
-                    phoneInput: {
-                        required: true,
-                        digits: true,
-                        VnNumberPhone: true,
-                    },
-                    emailInput: {
-                        required: true,
-                        email: true,
-                    }
-                },
-
-                messages: {
-                    firstNameInput: {
-                        required: "Please enter your first name",
-                        maxlength: "Please enter your first name less than 20 characters"
-                    },
-                    lastNameInput: {
-                        required: "Please enter your first name",
-                        maxlength: "Please enter your last name less than 20 characters"
-                    },
-                    countryInput: "Please enter your country",
-                    companyNameInput: "Please enter organization name",
-                    jobInput: "Please enter your job title",
-                    companySizeInput: {
-                        required: "Please enter organization size",
-                        min: "Please enter organization size",
-                        number: "Please enter number"
-                    },
-                    learnerNumberInput: {
-                        required: "Please enter number of learners",
-                        min: "Please enter number of learners",
-                        number: "Please enter number"
-                    },
-                    phoneInput: {
-                        required: "Please enter your phone",
-                        digits: "Please enter your phone, like: +84 1234567890",
-                        VnNumberPhone: "Please enter your phone, like: +84 1234567890"
-                    },
-                    emailInput: {
-                        required: "Please enter email",
-                        email: "Please enter right format email",
-                    }
-                },
-
-                submitHandler: function (form) {
-                    hanleSubmit();
-                },
-            });
+    //handle selectPackage
+    function selectPackage(package) {
+        $('#promotion_package').val(package);
+    }
+    $(document).ready(function() {
+        let lang = (localStorage.getItem("locale")) ? localStorage.getItem("locale") : 'vi';
+        $('.register-form').attr('id', 'register_' + lang);
+        $('#companyNameInput').keyup(function(e) {
+            $('#duplicate_company_name').empty();
         });
+
+        //Submit form
+        function hanleSubmit() {
+            data_post = {
+                type: 'Business',
+                email: $('#emailInput').val(),
+                phone: $('#phoneInput').val(),
+                name: $('#firstNameInput').val() + ' ' + $('#lastNameInput').val(),
+                organization_name: $('#companyNameInput').val(),
+                organization_size: $('#companySizeInput').val(),
+                expected_number_of_learner: $('#learnerNumberInput').val(),
+                phone_number: $('#phoneInput').val(),
+                job_title: $('#jobInput').val(),
+                note: $('#inquiryInput').val(),
+                country: $('#countryInput').val(),
+                utm_term: $('#utm_term').val(),
+                // search: document.getElementById("elsa-search").value = window.location.search,
+                promotion_package: $('#promotion_package').val(),
+                //'g-recaptcha-response': v,
+            }
+            console.log(data_post);
+            $.ajax({
+                type: "POST",
+                url: 'https://elsaspeak.com/api/elsab2bsolution',
+                data: JSON.stringify(data_post),
+                dataType: 'json',
+                success: function(resp) {
+                    if (resp) {
+                        if (resp.success) {
+                            window.location.href = 'https://vn.elsaspeak.com/thank-you/';
+                        }
+                        console.log(data_post);
+                    }
+                },
+                error: function(resp) {
+                    if (resp.responseJSON) {
+                        let lang = (localStorage.getItem('locale')) ? localStorage.getItem(
+                            'locale') : 'vi';
+                        const message = (lang === 'vi') ?
+                            "Tên công ty đã tồn tại" : "Duplicate company name";
+                        $('#duplicate_company_name').append(
+                            `<label class="error">${message}</label>`);
+                        $('#companyNameInput').focus();
+                        console.log(resp.responseJSON.msg);
+                    }
+                }
+            });
+        }
+        //Check number phone VN format
+        $.validator.addMethod(
+            "VnNumberPhone",
+            function(value, element, arg) {
+                const regex = /(84|0[3|5|7|8|9|2])+([0-9]{8})\b/;
+                return regex.test(value);
+            },
+            "Số không hợp lệ"
+        );
+
+        $("#register_vi").validate({
+            rules: {
+                firstNameInput: {
+                    required: true,
+                    maxlength: 20
+                },
+                lastNameInput: {
+                    required: true,
+                    maxlength: 20
+                },
+                countryInput: "required",
+                companyNameInput: "required",
+                jobInput: "required",
+                companySizeInput: {
+                    required: true,
+                    min: 1
+                },
+                learnerNumberInput: {
+                    required: true,
+                    min: 1
+                },
+                phoneInput: {
+                    required: true,
+                    digits: true,
+                    VnNumberPhone: true,
+                },
+                emailInput: {
+                    required: true,
+                    email: true,
+                }
+            },
+
+            messages: {
+                firstNameInput: {
+                    required: "Vui lòng nhập tên",
+                    maxlength: "Vui lòng nhập tên ít hơn 20 kí tự"
+                },
+                lastNameInput: {
+                    required: "Vui lòng nhập họ",
+                    maxlength: "Vui lòng nhập họ ít hơn 20 kí tự"
+                },
+                countryInput: "Vui lòng nhập quốc gia",
+                companyNameInput: "Vui lòng nhập tên công ty",
+                jobInput: "Vui lòng nhập chức danh của bạn",
+                companySizeInput: {
+                    required: "Vui lòng nhập số nhân viên của công ty",
+                    min: "Vui lòng nhập số nhân viên của công ty",
+                    number: "Vui lòng nhập số"
+                },
+                learnerNumberInput: {
+                    required: "Vui lòng nhập số học viên",
+                    min: "Vui lòng nhập số học viên",
+                    number: "Vui lòng nhập số"
+                },
+                phoneInput: {
+                    required: "Vui lòng nhập số điện thoại",
+                    digits: "Sai định dạng",
+                    VnNumberPhone: "Sai định dạng"
+                },
+                emailInput: {
+                    required: "Vui lòng nhập email",
+                    email: "Sai định dạng",
+                }
+            },
+
+            submitHandler: function(form) {
+                hanleSubmit();
+            },
+        });
+
+        //validate form en
+        $("#register_en").validate({
+            rules: {
+                firstNameInput: {
+                    required: true,
+                    maxlength: 20
+                },
+                lastNameInput: {
+                    required: true,
+                    maxlength: 20
+                },
+                countryInput: "required",
+                companyNameInput: "required",
+                jobInput: "required",
+                companySizeInput: {
+                    required: true,
+                    min: 1
+                },
+                learnerNumberInput: {
+                    required: true,
+                    min: 1
+                },
+                phoneInput: {
+                    required: true,
+                    digits: true,
+                    VnNumberPhone: true,
+                },
+                emailInput: {
+                    required: true,
+                    email: true,
+                }
+            },
+
+            messages: {
+                firstNameInput: {
+                    required: "Please enter your first name",
+                    maxlength: "Please enter your first name less than 20 characters"
+                },
+                lastNameInput: {
+                    required: "Please enter your first name",
+                    maxlength: "Please enter your last name less than 20 characters"
+                },
+                countryInput: "Please enter your country",
+                companyNameInput: "Please enter organization name",
+                jobInput: "Please enter your job title",
+                companySizeInput: {
+                    required: "Please enter organization size",
+                    min: "Please enter organization size",
+                    number: "Please enter number"
+                },
+                learnerNumberInput: {
+                    required: "Please enter number of learners",
+                    min: "Please enter number of learners",
+                    number: "Please enter number"
+                },
+                phoneInput: {
+                    required: "Please enter your phone",
+                    digits: "Please enter your phone, like: +84 1234567890",
+                    VnNumberPhone: "Please enter your phone, like: +84 1234567890"
+                },
+                emailInput: {
+                    required: "Please enter email",
+                    email: "Please enter right format email",
+                }
+            },
+
+            submitHandler: function(form) {
+                hanleSubmit();
+            },
+        });
+    });
     </script>
 </body>
 
