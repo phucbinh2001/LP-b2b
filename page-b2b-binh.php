@@ -113,7 +113,7 @@
         href="https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/css/homepage.css?ver=8"
         type="text/css" media="all">
 
-    <!-- FB Pixel 325175681738700 -->
+    <!-- FB Pixel 754267458487273 -->
     <script>
     ! function(f, b, e, v, n, t, s) {
         if (f.fbq) return;
@@ -133,7 +133,7 @@
         s.parentNode.insertBefore(t, s)
     }(window, document, 'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '325175681738700');
+    fbq('init', '754267458487273');
     fbq('track', 'PageView');
     </script>
     <!-- FB Pixel -->
@@ -1987,7 +1987,7 @@
         data-cf-settings="b2c9fa69bf21bf5a311ec2b5-|49" defer=""></script>
     <script>
     $(document).ready(function() {
-        let lang = localStorage.getItem("locale");
+        let lang = (localStorage.getItem("locale")) ? localStorage.getItem("locale") : 'vi';
         $('.register-form').attr('id', 'register_' + lang);
         $('#companyNameInput').keyup(function(e) {
             $('#duplicate_company_name').empty();
