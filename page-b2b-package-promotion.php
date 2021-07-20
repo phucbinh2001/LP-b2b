@@ -109,9 +109,7 @@
     <script src="https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/js/jquery.lazy.min.js">
     </script>
     <title>ELSA - Gói doanh nghiệp</title>
-    <link rel="stylesheet"
-        href="https://vn.elsaspeak.com/wp-content/themes/theme-b2b-package-promotion/assets/css/homepage.css?ver=8"
-        type="text/css" media="all">
+    <link rel="stylesheet" href="./assets/css/homepage.css?ver=8.1" type="text/css" media="all">
 
     <!-- FB Pixel 754267458487273 -->
     <script>
@@ -811,9 +809,22 @@
             </div>
         </div>
         <section class="deal pt-5 pb-5" id="goi-san-pham">
-            <p class="text-size-36 text-size-m-24 font-weight-600 title-space m-auto"
+            <p class="text-size-36 text-size-m-24 font-weight-600 m-auto mb-0"
                 data-i18n="DISCOUNT FOR THE BUSINESS PACKAGE">GIÁ GIẢM BẤT NGỜ KHI ĐĂNG KÝ GÓI
                 DOANH NGHIỆP</p>
+            <p class="text-size-16 mt-2 mb-4"><span
+                    data-i18n="Promotion offer is sold as package, cannot be replaced / exchanged with any other items or additional discounts.">Ưu
+                    đãi được áp dụng theo gói, không thay thế hay trao đổi với bất kỳ
+                    gói
+                    học nào
+                    khác hoặc giảm giá thêm. </span><br>
+                <b data-i18n=" ">Hình thức triển khai:</b> <span
+                    data-i18n="ELSA’s account management team will activate accounts, set up the Dashboard and Testing system, no self-activation required.">ELSA
+                    sẽ trực tiếp kích hoạt mã tài khoản và cài đặt cho khách
+                    hàng
+                    đăng ký </span><br>
+                <b data-i18n="Validity: July 31, 2021">Chương trình áp dụng đến: 31/07/2021</b>
+            </p>
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 mb-3">
@@ -825,32 +836,36 @@
                                 </p>
                             </div>
                             <div class="card-content p-4">
-                                <div class="card-content-bg p-3 pb-5 text-size-20">
+                                <div class="card-content-bg p-3 pb-5 text-size-18">
                                     <div class="row mb-2 pl-3 pr-3">
-                                        <div class="p-0 col-5 d-flex align-items-center text-left font-weight-600">
+                                        <div class="p-0 col-4 d-flex align-items-center text-left font-weight-600">
                                             <p>ELSA Pro</p>
                                         </div>
-                                        <div class="card-right col-7 pl-4 pr-0 m-0 d-flex justify-content-between">
-                                            <p class="text-size-18 m-0"><del>589.000 Đ</del></p>
-                                            <p class="color-blue font-weight-600">441.750 Đ</p>
+                                        <div class="card-right col-8 pl-4 pr-0 m-0 d-flex justify-content-between">
+                                            <p class="text-size-18 m-0 translate-custom"><del>589.000 Đ</del></p>
+                                            <p class="color-blue font-weight-600">441.750 Đ/<span class="text-size-12"
+                                                    data-i18n="user">học viên</span></p>
                                         </div>
                                     </div>
                                     <div class="row mb-2 pl-3 pr-3">
                                         <div class="p-0 col-5 d-flex align-items-center text-left font-weight-600">
                                             <p>ELSA Dashboard</p>
                                         </div>
-                                        <div class="card-right col-7 pl-4 pr-0 m-0 d-flex justify-content-between">
+                                        <div class="card-right col-7 pl-0 pr-0 m-0 d-flex justify-content-between">
                                             <p class="text-size-18 m-0"><del>139.800 Đ</del></p>
-                                            <p class="color-blue font-weight-600">69.900 Đ</p>
+                                            <p class="color-blue font-weight-600">69.900 Đ/<span class="text-size-12"
+                                                    data-i18n="user">học viên</span></p>
                                         </div>
                                     </div>
                                     <div class="row mb-2 pl-3 pr-3">
                                         <div class="p-0 col-5 d-flex align-items-center text-left font-weight-600">
                                             <p>Testing Platform</p>
                                         </div>
-                                        <div class="card-right col-7 pl-4 pr-0 m-0 d-flex justify-content-between">
-                                            <p class="text-size-18 m-0"><del>80.000 Đ</del></p>
-                                            <p class="color-blue font-weight-600">Free</p>
+                                        <div class="card-right col-7 pl-0 pr-0 m-0 d-flex justify-content-between">
+                                            <p class="text-size-18 m-0"><del>80.000 Đ/</del><span class="text-size-12"
+                                                    data-i18n="test">bài
+                                                    test</span></p>
+                                            <p class="color-blue font-weight-600" data-i18n="Free">Miễn phí</p>
                                         </div>
                                     </div>
                                     <!-- <div class="row mb-2 pl-3 pr-3">
@@ -861,21 +876,32 @@
                                             <p class="color-blue font-weight-600">80.000 Đ</p>
                                         </div>
                                     </div> -->
-                                    <div class="row mb-2 pl-3 pr-3">
-                                        <div class="p-0 col-5 text-left font-weight-600">
-                                            <p class="font-weight-400">License</p>
+                                    <div class="border-top border-bottom pt-2 pb-2">
+                                        <div class="row mb-2 pl-3 pr-3">
+                                            <div class="p-0 col-9 text-left font-weight-600">
+                                                <p class="font-weight-600" data-i18n="Number of user">Số lượng học
+                                                    viên</p>
+                                            </div>
+                                            <div class="p-0 col-3 text-right">
+                                                <p class="color-blue font-weight-600">20</p>
+                                            </div>
                                         </div>
-                                        <div class="p-0 col-3 text-size-18 p-0">
-
-                                        </div>
-                                        <div class="p-0 col-4 text-right">
-                                            <p class="color-blue">20</p>
+                                        <div class="row mb-2 pl-3 pr-3">
+                                            <div class="p-0 col-9 text-left font-weight-600">
+                                                <p class="font-weight-600" data-i18n="Number of test">Số lượng bài test
+                                                </p>
+                                            </div>
+                                            <div class="p-0 col-3 text-right">
+                                                <p class="color-blue font-weight-600">20</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="total mt-3 pt-3">
                                         <p class="font-weight-bold text-size-24 m-0" data-i18n="TOTAL">GIÁ TỔNG</p>
                                         <p class="price color-blue m-0 font-weight-bold text-size-36">10.233.000 Đ</p>
                                         <p class="text-size-16 m-0  "><del>16.176.000 Đ</del></p>
+                                        <p class="tietkiem"><span class="text-size-16" data-i18n="Save">Tiết kiệm
+                                            </span><span class="text-size-20 font-weight-600"> 37%</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -888,7 +914,7 @@
 
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 mb-3">
                         <div class="card p-3 pb-5">
                             <div class="card-title m-0">
                                 <p class="text-left m-0 text-white font-weight-bold text-size-36 pb-2"
@@ -897,49 +923,72 @@
                                 </p>
                             </div>
                             <div class="card-content p-4">
-                                <div class="card-content-bg p-3 pb-5 text-size-20">
+                                <div class="card-content-bg p-3 pb-5 text-size-18">
                                     <div class="row mb-2 pl-3 pr-3">
-                                        <div class="p-0 col-5 d-flex align-items-center text-left font-weight-600">
+                                        <div class="p-0 col-4 d-flex align-items-center text-left font-weight-600">
                                             <p>ELSA Pro</p>
                                         </div>
-                                        <div class="card-right col-7 pl-4 pr-0 m-0 d-flex justify-content-between">
-                                            <p class="text-size-18 m-0"><del>989.000 Đ</del></p>
-                                            <p class="color-blue font-weight-600">692.300 Đ</p>
+                                        <div class="card-right col-8 pl-4 pr-0 m-0 d-flex justify-content-between">
+                                            <p class="text-size-18 m-0 translate-custom"><del>989.000 Đ</del></p>
+                                            <p class="color-blue font-weight-600">672.300 Đ/<span class="text-size-12"
+                                                    data-i18n="user">học viên</span></p>
                                         </div>
                                     </div>
                                     <div class="row mb-2 pl-3 pr-3">
                                         <div class="p-0 col-5 d-flex align-items-center text-left font-weight-600">
                                             <p>ELSA Dashboard</p>
                                         </div>
-                                        <div class="card-right col-7 pl-4 pr-0 m-0 d-flex justify-content-between">
+                                        <div class="card-right col-7 pl-0 pr-0 m-0 d-flex justify-content-between">
                                             <p class="text-size-18 m-0"><del>279.600 Đ</del></p>
-                                            <p class="color-blue font-weight-600">139.800 Đ</p>
+                                            <p class="color-blue font-weight-600">139.800 Đ/<span class="text-size-12"
+                                                    data-i18n="user">học viên</span></p>
                                         </div>
                                     </div>
                                     <div class="row mb-2 pl-3 pr-3">
                                         <div class="p-0 col-5 d-flex align-items-center text-left font-weight-600">
                                             <p>Testing Platform</p>
                                         </div>
-                                        <div class="card-right col-7 pl-4 pr-0 m-0 d-flex justify-content-between">
-                                            <p class="text-size-18 m-0"><del>80.000 Đ</del></p>
-                                            <p class="color-blue font-weight-600">Free</p>
+                                        <div class="card-right col-7 pl-0 pr-0 m-0 d-flex justify-content-between">
+                                            <p class="text-size-18 m-0"><del>80.000 Đ/</del><span class="text-size-12"
+                                                    data-i18n="test">bài
+                                                    test</span></p>
+                                            <p class="color-blue font-weight-600" data-i18n="Free">Miễn phí</p>
                                         </div>
                                     </div>
-                                    <div class="row mb-2 pl-3 pr-3">
-                                        <div class="p-0 col-5 text-left font-weight-600">
-                                            <p class="font-weight-400">License</p>
+                                    <!-- <div class="row mb-2 pl-3 pr-3">
+                                        <div class="p-0 col-6 text-left font-weight-600">
+                                            <p>Testing Platform</p>
                                         </div>
-                                        <div class="p-0 col-3 text-size-18 p-0">
-
+                                        <div class="p-0 col-6 text-right d-flex align-items-center justify-content-end">
+                                            <p class="color-blue font-weight-600">80.000 Đ</p>
                                         </div>
-                                        <div class="p-0 col-4 text-right">
-                                            <p class="color-blue">20</p>
+                                    </div> -->
+                                    <div class="border-top border-bottom pt-2 pb-2">
+                                        <div class="row mb-2 pl-3 pr-3">
+                                            <div class="p-0 col-9 text-left font-weight-600">
+                                                <p class="font-weight-600" data-i18n="Number of user">Số lượng học
+                                                    viên</p>
+                                            </div>
+                                            <div class="p-0 col-3 text-right">
+                                                <p class="color-blue font-weight-600">20</p>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-2 pl-3 pr-3">
+                                            <div class="p-0 col-9 text-left font-weight-600">
+                                                <p class="font-weight-600" data-i18n="Number of test">Số lượng bài test
+                                                </p>
+                                            </div>
+                                            <div class="p-0 col-3 text-right">
+                                                <p class="color-blue font-weight-600">20</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="total mt-3 pt-3">
                                         <p class="font-weight-bold text-size-24 m-0" data-i18n="TOTAL">GIÁ TỔNG</p>
                                         <p class="price color-blue m-0 font-weight-bold text-size-36">16.642.000 Đ</p>
-                                        <p class="text-size-16 m-0  "><del>27.772.000 Đ</del></p>
+                                        <p class="text-size-16 m-0  "><del>26.972.000 Đ</del></p>
+                                        <p class="tietkiem"><span class="text-size-16" data-i18n="Save">Tiết kiệm
+                                            </span><span class="text-size-20 font-weight-600"> 40%</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -956,16 +1005,30 @@
             </div>
         </section>
         <section class="gift pt-5 pb-5">
-            <p class="text-size-36 text-size-m-24 font-weight-600 title-space m-auto"
-                data-i18n="SPECIAL GIFT FOR THE BUSINESS PACKAGE">QUÀ TẶNG HẤP DẪN KHI ĐĂNG KÝ GÓI
+            <p class="text-size-36 text-size-m-24 font-weight-600 m-auto mb-0"
+                data-i18n="DISCOUNT FOR THE BUSINESS PACKAGE">GIÁ GIẢM BẤT NGỜ KHI ĐĂNG KÝ GÓI
                 DOANH NGHIỆP</p>
+            <p class="text-size-16 mt-2 mb-4"><span
+                    data-i18n="Promotion offer is sold as package, cannot be replaced / exchanged with any other items or additional discounts.">Ưu
+                    đãi được áp dụng theo gói, không thay thế hay trao đổi với bất kỳ
+                    gói
+                    học nào
+                    khác hoặc giảm giá thêm. </span><br>
+                <b data-i18n=" ">Hình thức triển khai:</b> <span
+                    data-i18n="ELSA’s account management team will activate accounts, set up the Dashboard and Testing system, no self-activation required.">ELSA
+                    sẽ trực tiếp kích hoạt mã tài khoản và cài đặt cho khách
+                    hàng
+                    đăng ký </span><br>
+                <b data-i18n="Validity: July 31, 2021">Chương trình áp dụng đến: 31/07/2021</b>
+            </p>
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 mb-3">
                         <div class="card p-3 pb-5">
                             <div class="card-title m-0">
                                 <p class="text-left m-0 text-white font-weight-bold text-size-36 pb-2"
-                                    data-i18n="COMBO 6 MONTHS">COMBO 6 THÁNG
+                                    data-i18n="COMBO 6 MONTHS">
+                                    COMBO 6 THÁNG
                                 </p>
                                 <div class="gift-info background-white">
                                     <img
@@ -975,72 +1038,90 @@
                                 </div>
                             </div>
                             <div class="card-content p-4">
-                                <div class="card-content-bg p-3 pb-5 text-size-20">
+                                <div class="card-content-bg p-3 pb-5 text-size-18">
                                     <div class="row mb-2 pl-3 pr-3">
-                                        <div class="p-0 col-5 text-left font-weight-600">
-                                            <p>ELSA Pro</p>
+                                        <div class="p-0 col-4 d-flex align-items-center text-left font-weight-600">
+                                            <p>ELSA Pro <br>(9 tháng)</p>
                                         </div>
-                                        <div class="col-4 col-7 p-0 m-0 text-right d-flex-custom">
-                                            <p class="color-blue font-weight-600">589.000 Đ</p>
+                                        <div class="card-right col-8 pl-4 pr-0 m-0 d-flex justify-content-between">
+                                            <p class="text-size-18 m-0 translate-custom"><del>918.000 Đ</del></p>
+                                            <p class="color-blue font-weight-600">589.000 Đ/<span class="text-size-12"
+                                                    data-i18n="user">học viên</span></p>
                                         </div>
                                     </div>
                                     <div class="row mb-2 pl-3 pr-3">
-                                        <div class="p-0 col-5 col-lg-8 text-left font-weight-600">
-                                            <p data-i18n="ELSA Dashboard - 9 months">ELSA Dashboard - 9 tháng</p>
+                                        <div class="p-0 col-5 d-flex align-items-center text-left font-weight-600">
+                                            <p>ELSA Dashboard <br>(9 tháng)</p>
                                         </div>
-                                        <div class="col-lg-4 col-7 p-0 text-right pr-0 m-0 d-flex-custom">
-                                            <p class="color-blue font-weight-600">209.700 Đ</p>
+                                        <div class="card-right col-7 pl-0 pr-0 m-0 d-flex justify-content-between">
+                                            <p class="text-size-18 m-0"><del>209.700 Đ</del></p>
+                                            <p class="color-blue font-weight-600">139.800 Đ/<span class="text-size-12"
+                                                    data-i18n="user">học viên</span></p>
                                         </div>
                                     </div>
                                     <div class="row mb-2 pl-3 pr-3">
-                                        <div class="p-0 col-5 text-left font-weight-600">
+                                        <div class="p-0 col-5 d-flex align-items-center text-left font-weight-600">
                                             <p>Testing Platform</p>
                                         </div>
-                                        <div class="p-0 col-7 text-right text-right d-flex-custom">
+                                        <div class="card-right col-7 pl-0 pr-0 m-0 d-flex justify-content-between">
+                                            <p class="text-size-18 m-0"><del>80.000 Đ/</del><span class="text-size-12"
+                                                    data-i18n="test">bài
+                                                    test</span></p>
+                                            <p class="color-blue font-weight-600" data-i18n="Free">Miễn phí</p>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="row mb-2 pl-3 pr-3">
+                                        <div class="p-0 col-6 text-left font-weight-600">
+                                            <p>Testing Platform</p>
+                                        </div>
+                                        <div class="p-0 col-6 text-right d-flex align-items-center justify-content-end">
                                             <p class="color-blue font-weight-600">80.000 Đ</p>
                                         </div>
-                                    </div>
-                                    <div class="row mb-2 pl-3 pr-3">
-                                        <div class="p-0 col-5 text-left font-weight-600">
-                                            <p class="font-weight-400">License</p>
+                                    </div> -->
+                                    <div class="border-top border-bottom pt-2 pb-2">
+                                        <div class="row mb-2 pl-3 pr-3">
+                                            <div class="p-0 col-9 text-left font-weight-600">
+                                                <p class="font-weight-600" data-i18n="Number of user">Số lượng học
+                                                    viên</p>
+                                            </div>
+                                            <div class="p-0 col-3 text-right">
+                                                <p class="color-blue font-weight-600">20</p>
+                                            </div>
                                         </div>
-                                        <div class="p-0 col-7 text-right">
-                                            <p class="color-blue">20</p>
-                                        </div>
-                                    </div>
-                                    <div class="row pl-3 pr-3">
-                                        <div class="p-0 col-5 text-left font-weight-600">
-                                            <p class="font-weight-400">&nbsp;</p>
-                                        </div>
-                                        <div class="p-0 col-3 text-size-18 p-0">
-
-                                        </div>
-                                        <div class="p-0 col-4 text-right">
-                                            <p class="color-blue"></p>
+                                        <div class="row mb-2 pl-3 pr-3">
+                                            <div class="p-0 col-9 text-left font-weight-600">
+                                                <p class="font-weight-600" data-i18n="Number of test">Số lượng bài test
+                                                </p>
+                                            </div>
+                                            <div class="p-0 col-3 text-right">
+                                                <p class="color-blue font-weight-600">20</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="total mt-3 pt-3">
                                         <p class="font-weight-bold text-size-24 m-0" data-i18n="TOTAL">GIÁ TỔNG</p>
-                                        <p class="price color-blue m-0 font-weight-bold text-size-36">8.180.000 Đ</p>
-                                        <p class="text-size-16 m-0  "><del>15.974.000 Đ</del></p>
+                                        <p class="price color-blue m-0 font-weight-bold text-size-36">14.576.000 Đ</p>
+                                        <p class="text-size-16 m-0  "><del>24,154,000 Đ</del></p>
+                                        <p class="tietkiem"><span class="text-size-16" data-i18n="Save">Tiết kiệm
+                                            </span><span class="text-size-20 font-weight-600"> 40%</span></p>
                                     </div>
                                 </div>
                             </div>
                             <div style="margin: 0 auto;">
                                 <a class="btn btn-primary button-blue d-lg-block keep-param"
                                     style="width: 378px; padding: 13px 65px; margin-top: -4px; max-width: 378px;"
-                                    data-i18n="Register Now" data-i18n="Register Now" data-toggle="modal"
-                                    data-target="#exampleModal">Đăng
+                                    data-i18n="Register Now" data-toggle="modal" data-target="#exampleModal">Đăng
                                     ký ngay</a>
                             </div>
 
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 mb-3">
                         <div class="card p-3 pb-5">
                             <div class="card-title m-0">
                                 <p class="text-left m-0 text-white font-weight-bold text-size-36 pb-2"
-                                    data-i18n="COMBO 1 YEAR">COMBO 1 NĂM
+                                    data-i18n="COMBO 1 YEAR">
+                                    COMBO 1 NĂM
                                 </p>
                                 <div class="gift-info background-white">
                                     <img
@@ -1050,58 +1131,79 @@
                                 </div>
                             </div>
                             <div class="card-content p-4">
-                                <div class="card-content-bg p-3 pb-5 text-size-20">
+                                <div class="card-content-bg p-3 pb-5 text-size-18">
                                     <div class="row mb-2 pl-3 pr-3">
-                                        <div class="p-0 col-5 text-left font-weight-600">
-                                            <p>ELSA Pro</p>
+                                        <div class="p-0 col-4 d-flex align-items-center text-left font-weight-600">
+                                            <p>ELSA Pro <br>(1,5 năm)</p>
                                         </div>
-                                        <div class="col-4 col-7 p-0 m-0 text-right d-flex-custom">
-                                            <p class="color-blue font-weight-600">989.000 Đ</p>
+                                        <div class="card-right col-8 pl-4 pr-0 m-0 d-flex justify-content-between">
+                                            <p class="text-size-18 m-0 translate-custom"><del>1.978.000 Đ</del></p>
+                                            <p class="color-blue font-weight-600">989.000 Đ/<span class="text-size-12"
+                                                    data-i18n="user">học viên</span></p>
                                         </div>
                                     </div>
                                     <div class="row mb-2 pl-3 pr-3">
-                                        <div class="p-0 col-5 col-lg-9 text-left font-weight-600">
-                                            <p data-i18n="ELSA Dashboard - 18 months">ELSA Dashboard - 18 tháng</p>
+                                        <div class="p-0 col-5 d-flex align-items-center text-left font-weight-600">
+                                            <p>ELSA Dashboard <br>(1,5 năm)</p>
                                         </div>
-                                        <div class="col-lg-3 col-7 p-0 text-right pr-0 m-0 d-flex-custom">
-                                            <p class="color-blue font-weight-600">419.400 Đ</p>
+                                        <div class="card-right col-7 pl-0 pr-0 m-0 d-flex justify-content-between">
+                                            <p class="text-size-18 m-0"><del>419.400 Đ</del></p>
+                                            <p class="color-blue font-weight-600">279.600 Đ/<span class="text-size-12"
+                                                    data-i18n="user">học viên</span></p>
                                         </div>
                                     </div>
                                     <div class="row mb-2 pl-3 pr-3">
-                                        <div class="p-0 col-5 text-left font-weight-600">
+                                        <div class="p-0 col-5 d-flex align-items-center text-left font-weight-600">
                                             <p>Testing Platform</p>
                                         </div>
-                                        <div class="p-0 col-7 text-right text-right d-flex-custom">
+                                        <div class="card-right col-7 pl-0 pr-0 m-0 d-flex justify-content-between">
+                                            <p class="text-size-18 m-0"><del>80.000 Đ/</del><span class="text-size-12"
+                                                    data-i18n="test">bài
+                                                    test</span></p>
+                                            <p class="color-blue font-weight-600" data-i18n="Free">Miễn phí</p>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="row mb-2 pl-3 pr-3">
+                                        <div class="p-0 col-6 text-left font-weight-600">
+                                            <p>Testing Platform</p>
+                                        </div>
+                                        <div class="p-0 col-6 text-right d-flex align-items-center justify-content-end">
                                             <p class="color-blue font-weight-600">80.000 Đ</p>
                                         </div>
-                                    </div>
-                                    <div class="row mb-2 pl-3 pr-3">
-                                        <div class="p-0 col-10 text-left font-weight-600">
-                                            <p class="font-weight-400">ELSA Pro + Dashboard License</p>
+                                    </div> -->
+                                    <div class="border-top border-bottom pt-2 pb-2">
+                                        <div class="row mb-2 pl-3 pr-3">
+                                            <div class="p-0 col-9 text-left font-weight-600">
+                                                <p class="font-weight-600" data-i18n="Number of user">Số lượng học
+                                                    viên</p>
+                                            </div>
+                                            <div class="p-0 col-3 text-right">
+                                                <p class="color-blue font-weight-600">20</p>
+                                            </div>
                                         </div>
-                                        <div class="p-0 col-2 text-right">
-                                            <p class="color-blue">20</p>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-2 pl-3 pr-3">
-                                        <div class="p-0 col-10 text-left font-weight-600">
-                                            <p class="font-weight-400">Testing Platform Licens</p>
-                                        </div>
-                                        <div class="p-0 col-2 text-right">
-                                            <p class="color-blue">30</p>
+                                        <div class="row mb-2 pl-3 pr-3">
+                                            <div class="p-0 col-9 text-left font-weight-600">
+                                                <p class="font-weight-600" data-i18n="Number of test">Số lượng bài test
+                                                </p>
+                                            </div>
+                                            <div class="p-0 col-3 text-right">
+                                                <p class="color-blue font-weight-600">20</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="total mt-3 pt-3">
                                         <p class="font-weight-bold text-size-24 m-0" data-i18n="TOTAL">GIÁ TỔNG</p>
-                                        <p class="price color-blue m-0 font-weight-bold text-size-36">13.380.000 Đ</p>
-                                        <p class="text-size-16 m-0  "><del>28.168.000 Đ</del></p>
+                                        <p class="price color-blue m-0 font-weight-bold text-size-36">25.372.000 Đ</p>
+                                        <p class="text-size-16 m-0  "><del>43,948,000 Đ</del></p>
+                                        <p class="tietkiem"><span class="text-size-16" data-i18n="Save">Tiết kiệm
+                                            </span><span class="text-size-20 font-weight-600"> 42%</span></p>
                                     </div>
                                 </div>
                             </div>
                             <div style="margin: 0 auto;">
-                                <a data-toggle="modal" data-target="#exampleModal"
-                                    class="btn btn-primary button-blue d-lg-block keep-param" data-i18n="Register Now"
-                                    style="width: 378px; padding: 13px 65px; margin-top: -4px; max-width: 378px;">Đăng
+                                <a class="btn btn-primary button-blue d-lg-block keep-param"
+                                    style="width: 378px; padding: 13px 65px; margin-top: -4px; max-width: 378px;"
+                                    data-i18n="Register Now" data-toggle="modal" data-target="#exampleModal">Đăng
                                     ký ngay</a>
                             </div>
 
@@ -1669,6 +1771,10 @@
         </div>
     </section>
     <style>
+    .text-size-12 {
+        font-size: 12px;
+    }
+
     .footer .contact-info {
         font-size: 16px;
         line-height: 32px;
@@ -1758,6 +1864,15 @@
 
     .align-right {
         padding-right: 150px;
+    }
+
+    .tietkiem {
+        background: #FF4B2B;
+        display: inline-block;
+        padding: 2px 28px;
+        margin-top: 10px !important;
+        border-radius: 20px;
+        color: #fff;
     }
 
     @media (max-width: 992px) {
@@ -1924,8 +2039,6 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/localization/messages_vi.js"
-        type="text/javascript"></script> -->
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script>
     $(window).scroll(function() {
@@ -1938,7 +2051,7 @@
     </script>
     <script>
     var default_lang = _lang || 'vi';
-    var version = '1.0.7';
+    var version = '1.0.9';
     $(document).ready(function() {
         $.i18n({
             locale: localStorage.getItem('locale') || default_lang,
@@ -2043,7 +2156,7 @@
         $.validator.addMethod(
             "VnNumberPhone",
             function(value, element, arg) {
-                const regex = /(84|0[3|5|7|8|9])+([0-9]{8})\b/;
+                const regex = /(84|0[3|5|7|8|9|2])+([0-9]{8})\b/;
                 return regex.test(value);
             },
             "Số không hợp lệ"
@@ -2170,8 +2283,8 @@
                     number: "Please enter number"
                 },
                 learnerNumberInput: {
-                    required: "Please enter number of learers",
-                    min: "Please enter number of learers",
+                    required: "Please enter number of learners",
+                    min: "Please enter number of learners",
                     number: "Please enter number"
                 },
                 phoneInput: {
